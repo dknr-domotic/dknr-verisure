@@ -1,0 +1,3623 @@
+[
+    {
+        "id": "4c2feff02c9aebaa",
+        "type": "tab",
+        "label": "common",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "48135a54600713e8",
+        "type": "tab",
+        "label": "custom",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bd90043835651de6",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - home uri",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "be68f32eed43e834",
+            "2704252b42b3faaf"
+        ],
+        "x": 94,
+        "y": 399,
+        "w": 332,
+        "h": 82
+    },
+    {
+        "id": "f734a4fcce4a0802",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - boot",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "d536608ecbe6516c",
+            "b05b1e32988eccf3",
+            "0744af34f2373571",
+            "47f04f56e95961a5",
+            "def7f23476f92a9e",
+            "34e54b81fe18b33f",
+            "d0ee4b417bfa2bb7"
+        ],
+        "x": 94,
+        "y": 159,
+        "w": 1242,
+        "h": 82
+    },
+    {
+        "id": "87038dcf749d44c6",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - icon uri",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "31368f26faeeeec5",
+            "066905a23ee18843",
+            "9f90cc93644f80c4",
+            "a49cdba72413a587",
+            "9ba5455a5674c8a7"
+        ],
+        "x": 94,
+        "y": 279,
+        "w": 852,
+        "h": 82
+    },
+    {
+        "id": "ced6b0d6d8aa764d",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - mqtt",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "05b0c0afa2f55df1",
+            "b18dc51cbf75cc24",
+            "4ca2b0783078bb87",
+            "99def6db6b13ba9c",
+            "30335bf1ac7b99bc",
+            "25ce94531dd6fbe4",
+            "d5bdaec879cbd196",
+            "02dccf8f780a61d9",
+            "49a4236523d8a934"
+        ],
+        "x": 104,
+        "y": 519,
+        "w": 612,
+        "h": 202
+    },
+    {
+        "id": "6f2c0bf97f866aa6",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - error",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "fc147ee782462bbe",
+            "8b870d19217142fa",
+            "9f55bfd681e97786"
+        ],
+        "x": 104,
+        "y": 759,
+        "w": 482,
+        "h": 82
+    },
+    {
+        "id": "94ca764ef2760841",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - ui",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "08a5cf610c97d769",
+            "7adf1bcdd6df3b31",
+            "8760610a1e45ffab",
+            "5f28408f430feddf",
+            "3681864d9f417484",
+            "ddab942f6d49a661",
+            "d3965b3ecbc6aae9",
+            "300df28f3025dc33",
+            "0154b8f75648b065",
+            "e453d1f77363ac46"
+        ],
+        "x": 104,
+        "y": 879,
+        "w": 1112,
+        "h": 182
+    },
+    {
+        "id": "9f3c5b4c8836214c",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - mqtt - form",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "269fe06d582be842",
+            "913d3318a27c57f9",
+            "8b76a374e82e1255",
+            "094401b4b908ed63",
+            "901bc3883a87d865",
+            "ca5c502dcbc1ee15"
+        ],
+        "x": 104,
+        "y": 1099,
+        "w": 892,
+        "h": 82
+    },
+    {
+        "id": "1789a729ea310f79",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - describe",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "4df61c08c091eb2d",
+            "78526f3deecd40c3",
+            "6c2a140d445208f5"
+        ],
+        "x": 94,
+        "y": 59,
+        "w": 606,
+        "h": 102
+    },
+    {
+        "id": "0ec7b28921064226",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - menu",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "70ec9d97a8404d3b",
+            "9431d06e2f834cfd",
+            "ab9cd418038cefb2"
+        ],
+        "x": 94,
+        "y": 181,
+        "w": 606,
+        "h": 102
+    },
+    {
+        "id": "24b112b799cd929a",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "reset",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "0b74e405a88fea2e",
+            "a14ae55f0d865ce9"
+        ],
+        "x": 94,
+        "y": 303,
+        "w": 416,
+        "h": 102
+    },
+    {
+        "id": "587cdaf9e56c86ef",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - api",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "4ca65d585c0cf39f",
+            "bd9e81a354fe000f",
+            "354c9b4212e145ef",
+            "8e488b7d715bf4c7",
+            "bda08e2e15f75e69",
+            "5146aa664a50f124"
+        ],
+        "x": 94,
+        "y": 425,
+        "w": 1176,
+        "h": 102
+    },
+    {
+        "id": "2f50b1b725e56b74",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - port",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "126427c796c8e9c7",
+            "b110f2810071296c",
+            "80fa9871158692f0",
+            "287cfc4de0008d62",
+            "a8b54fb99e7e1eff",
+            "8d54b65b90e434a5",
+            "ee3fa4114dc20d05",
+            "6e2ccd057734b5cd",
+            "e7d4e2190fe1dac1",
+            "128edd1adc39dc0f",
+            "1ed4c10211282967",
+            "6f7c4bb130956955",
+            "03c0e334690856da",
+            "0393d74b1a962de5",
+            "f1f676ee41b5c846",
+            "1c66cc723241e872"
+        ],
+        "x": 94,
+        "y": 547,
+        "w": 1936,
+        "h": 222
+    },
+    {
+        "id": "c18ec2d737314ebd",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - port - in",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "95ea60fe773e266c",
+            "8f28443a092bd616",
+            "9c5c02b4c2785274",
+            "98217d9b78db1421"
+        ],
+        "x": 94,
+        "y": 789,
+        "w": 606,
+        "h": 162
+    },
+    {
+        "id": "61f58f3983d62bbd",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - publish",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "fe0eaf4da780c277",
+            "ceaa91c2ab01998d",
+            "eed88956dce2fb67"
+        ],
+        "x": 94,
+        "y": 971,
+        "w": 606,
+        "h": 102
+    },
+    {
+        "id": "29e1250dbdb56a71",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - discovery",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "b898845c38151a25",
+            "6b06942abfcca4be",
+            "b2327d1a9a1b2241",
+            "df58e1332d9b9265",
+            "e3bf3fdd364dd194",
+            "729d251fc4615f70"
+        ],
+        "x": 94,
+        "y": 1093,
+        "w": 796,
+        "h": 162
+    },
+    {
+        "id": "6f4ec0a5ceecfce4",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - detail",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "42ae67c19e3e3682",
+            "fc13877bc8688552",
+            "5fe9ae20996803b3",
+            "3b9508c44f7033cc",
+            "bbbf0a92c56392d6",
+            "7a75fd81ea18e5d2",
+            "af69d68ff037ea11",
+            "db7608c7fc0789d8",
+            "ad114fddba29e18c",
+            "cb68300067bc2ba3",
+            "fe917db853e72abe",
+            "7ade51e419974721",
+            "215179f09ce78515"
+        ],
+        "x": 94,
+        "y": 1275,
+        "w": 1556,
+        "h": 282
+    },
+    {
+        "id": "70afa9e166588659",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - account",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "077fb23eafda84ad",
+            "e235cda378288631",
+            "abb6a20b54eed994",
+            "ca57a19d2d68b8d8",
+            "4146057d2c130584",
+            "d42b4e8fa1e4881a",
+            "0ffa1f0a52f14add",
+            "b16f7c4ebd263cf8",
+            "05b93216ee7c6dfe",
+            "4b9499d505d118a0",
+            "231e2bbb9c3b13b3",
+            "c3139c9d9fb3605c",
+            "a021ec62b0eaf07c",
+            "d5cd52ab4ed14eb4",
+            "cf3cd7f6e3e471d4",
+            "25cb78396b976f1c",
+            "8e7c99f2d0685f48",
+            "a731c79480db2f26",
+            "a45cbe3c3189ce5b",
+            "f85975c84e18315a",
+            "8868fae5b73bc00d",
+            "4d54dec55e8adcc7",
+            "074747fd26ce1e6b",
+            "32363a875cfc315c",
+            "f8e2855e8e00b1a9",
+            "c70c2e01325dbe6e",
+            "d2d52ac80369e7b7",
+            "98583b238bfb617c"
+        ],
+        "x": 94,
+        "y": 1577,
+        "w": 2126,
+        "h": 402
+    },
+    {
+        "id": "df7710b4b2c4e55b",
+        "type": "ui-base",
+        "name": "Tableau de bord",
+        "path": "/dashboard",
+        "appIcon": "/icon.png",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "none",
+        "navigationStyle": "none",
+        "titleBarStyle": "hidden",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "877e716e64a22cf1",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "f89655b525aee8cd",
+        "type": "ui-page",
+        "name": "detail",
+        "ui": "df7710b4b2c4e55b",
+        "path": "/",
+        "icon": "shield-home",
+        "layout": "notebook",
+        "theme": "877e716e64a22cf1",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b3a4a63fc14f6988",
+        "type": "ui-page",
+        "name": "add",
+        "ui": "df7710b4b2c4e55b",
+        "path": "/add",
+        "icon": "account-key",
+        "layout": "notebook",
+        "theme": "877e716e64a22cf1",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "887b3087f3dda2eb",
+        "type": "ui-page",
+        "name": "mqtt",
+        "ui": "df7710b4b2c4e55b",
+        "path": "/mqtt",
+        "icon": "cog",
+        "layout": "notebook",
+        "theme": "877e716e64a22cf1",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "117d5289b94a0fc6",
+        "type": "ui-group",
+        "name": "Etat de l'alarme",
+        "page": "f89655b525aee8cd",
+        "width": "6",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "878b175954cece85",
+        "type": "ui-group",
+        "name": "Connexion à Verisure",
+        "page": "b3a4a63fc14f6988",
+        "width": "3",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "86efca01481b9732",
+        "type": "ui-group",
+        "name": "Validation par SMS",
+        "page": "b3a4a63fc14f6988",
+        "width": "3",
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ef5bde6580675b69",
+        "type": "ui-group",
+        "name": "Compte Verisure",
+        "page": "b3a4a63fc14f6988",
+        "width": "3",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "4c116fe2697e0aa9",
+        "type": "ui-group",
+        "name": "Configurer MQTT",
+        "page": "887b3087f3dda2eb",
+        "width": "3",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2c5e094fee5ae877",
+        "type": "mqtt-broker",
+        "name": "MQTT",
+        "broker": "192.168.0.11",
+        "port": "1883",
+        "clientid": "dkverisure",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "be68f32eed43e834",
+        "type": "http in",
+        "z": "4c2feff02c9aebaa",
+        "g": "bd90043835651de6",
+        "name": "",
+        "url": "/",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "2704252b42b3faaf"
+            ]
+        ]
+    },
+    {
+        "id": "2704252b42b3faaf",
+        "type": "http response",
+        "z": "4c2feff02c9aebaa",
+        "g": "bd90043835651de6",
+        "name": "",
+        "statusCode": "307",
+        "headers": {
+            "Location": "/dashboard"
+        },
+        "x": 340,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d536608ecbe6516c",
+        "type": "inject",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "boot",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "jsonata",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "b05b1e32988eccf3"
+            ]
+        ]
+    },
+    {
+        "id": "b05b1e32988eccf3",
+        "type": "link call",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "",
+        "links": [
+            "4df61c08c091eb2d"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 390,
+        "y": 200,
+        "wires": [
+            [
+                "0744af34f2373571"
+            ]
+        ]
+    },
+    {
+        "id": "0744af34f2373571",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "check",
+        "func": "if (typeof msg.payload !== 'object' ||\n    typeof msg.payload.hmi !== 'object' ||\n    typeof msg.payload.project !== 'string'\n) {\n    return;\n}\n\nmsg.filename = '/data/projects/' + msg.payload.project + '/package.json'\n\nmsg.payload.app = {\n    'title': 'DKNR',\n    'version' : '0.0',\n    'git': '',\n    'mdi': ''\n}\n\nglobal.set('describe', msg.payload, 'memoryOnly');\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 200,
+        "wires": [
+            [
+                "47f04f56e95961a5"
+            ]
+        ]
+    },
+    {
+        "id": "47f04f56e95961a5",
+        "type": "file in",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "read project",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 790,
+        "y": 200,
+        "wires": [
+            [
+                "def7f23476f92a9e"
+            ]
+        ]
+    },
+    {
+        "id": "def7f23476f92a9e",
+        "type": "json",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 990,
+        "y": 200,
+        "wires": [
+            [
+                "34e54b81fe18b33f"
+            ]
+        ]
+    },
+    {
+        "id": "34e54b81fe18b33f",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "app",
+        "func": "delete msg.filename;\n\nif (typeof global.get('describe', 'memoryOnly') !== 'object') {\n    global.set('describe', { }, 'memoryOnly')\n}\n\nlet describe = global.get('describe', 'memoryOnly');\n\nif (typeof msg.payload === 'object') {\n    describe.app = {\n        'title': msg.payload.description.slice(5) || '',\n        'version' : msg.payload.version || '',\n        'git': msg.payload.name || '',\n        'mdi': 'shield-home'\n    };\n}\n\ndescribe.mqtt = {\n    'host': '',\n    'port': 1883,\n    'username': '',\n    'password': '',\n    'topic': 'dknr',\n    'enabled': false,\n    'homeassistant': 'homeassistant',\n    'interval': 180,\n    'lang': 'fr'\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 200,
+        "wires": [
+            [
+                "d0ee4b417bfa2bb7"
+            ]
+        ]
+    },
+    {
+        "id": "d0ee4b417bfa2bb7",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "common - boot",
+        "mode": "link",
+        "links": [
+            "05b0c0afa2f55df1",
+            "269fe06d582be842",
+            "42ae67c19e3e3682",
+            "077fb23eafda84ad"
+        ],
+        "x": 1295,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "31368f26faeeeec5",
+        "type": "http in",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "",
+        "url": "/icon.png",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "066905a23ee18843"
+            ]
+        ]
+    },
+    {
+        "id": "066905a23ee18843",
+        "type": "change",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "file",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "'/data/admin.png'",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "9f90cc93644f80c4"
+            ]
+        ]
+    },
+    {
+        "id": "9f90cc93644f80c4",
+        "type": "file in",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "icon",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "a49cdba72413a587"
+            ]
+        ]
+    },
+    {
+        "id": "a49cdba72413a587",
+        "type": "change",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "response",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "200",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "buffersize",
+                "pt": "msg",
+                "to": "msg.payload.length",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{\t    'Content-Type':'image/png',\t    'Content-Length':msg.buffersize,\t    'Connection':'close'\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "filename",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 320,
+        "wires": [
+            [
+                "9ba5455a5674c8a7"
+            ]
+        ]
+    },
+    {
+        "id": "9ba5455a5674c8a7",
+        "type": "http response",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 870,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "05b0c0afa2f55df1",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt - settings",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ca5c502dcbc1ee15"
+        ],
+        "x": 145,
+        "y": 560,
+        "wires": [
+            [
+                "b18dc51cbf75cc24",
+                "99def6db6b13ba9c"
+            ]
+        ]
+    },
+    {
+        "id": "b18dc51cbf75cc24",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "check",
+        "func": "msg.broker = {};\n\nlet mqtt = global.get('mqtt', 'default');\nif (typeof mqtt == 'object' && mqtt.enabled == true) {\n    if (mqtt.host.length > 0\n        && mqtt.port > 0\n        && mqtt.topic.length > 0\n    ) {\n        msg.broker.broker = mqtt.host;\n        msg.broker.port = mqtt.port;\n        if (mqtt.username.length > 0 && mqtt.password.length > 0) {\n            msg.broker.username = mqtt.username;\n            msg.broker.password = mqtt.password;\n        }\n\n        msg.broker.force = true;\n        msg.action = 'connect';\n        node.status({fill:\"green\",shape:\"ring\",text:\"settings ok\"});\n\n        return msg;\n    } else {\n        global.set('mqtt[\"enabled\"]', false, 'default');\n        node.status({ fill: \"red\", shape: \"ring\", text: \"settings ko\" });\n    }\n}\n\nmsg.action = 'disconnect';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 620,
+        "wires": [
+            [
+                "4ca2b0783078bb87"
+            ]
+        ]
+    },
+    {
+        "id": "4ca2b0783078bb87",
+        "type": "mqtt out",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "mqtt",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2c5e094fee5ae877",
+        "x": 450,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "99def6db6b13ba9c",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "check",
+        "func": "// Subscribe to DKNR commands topic\n\nmsg.broker = {};\n\nconst mqtt = global.get('mqtt', 'default');\nconst source = 'verisure';\n\nif (typeof mqtt == 'object' && mqtt.enabled == true) {\n    if (mqtt.host.length > 0\n        && mqtt.port > 0\n        && mqtt.topic.length > 0\n    ) {\n        msg.broker.broker = mqtt.host;\n        msg.broker.port = mqtt.port;\n        if (mqtt.username.length > 0 && mqtt.password.length > 0) {\n            msg.broker.username = mqtt.username;\n            msg.broker.password = mqtt.password;\n        }\n\n        msg.broker.force = true;\n        msg.action = 'connect';\n        node.status({fill:\"green\",shape:\"ring\",text:\"settings ok\"});\n\n        node.send(RED.util.cloneMessage(msg));\n\n        delete msg.broker;\n        msg.action = 'subscribe';\n        msg.payload = '';\n\n        // DKNR commands: topic / set / verisure / id / entity\n        msg.topic = [mqtt.topic, 'set', source, '#'].join('/');\n        node.send(RED.util.cloneMessage(msg));\n\n    } else {\n        global.set('mqtt.enabled', false, 'default');\n        node.status({ fill: 'red', shape: 'ring', text: 'settings ko' });\n    }\n} else {\n    msg.action = 'disconnect';\n\n    node.send(msg);\n}\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 560,
+        "wires": [
+            [
+                "30335bf1ac7b99bc"
+            ]
+        ]
+    },
+    {
+        "id": "30335bf1ac7b99bc",
+        "type": "mqtt in",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "mqtt in",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "2c5e094fee5ae877",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "25ce94531dd6fbe4"
+            ]
+        ]
+    },
+    {
+        "id": "25ce94531dd6fbe4",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt - receive",
+        "mode": "link",
+        "links": [
+            "95ea60fe773e266c"
+        ],
+        "x": 675,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "d5bdaec879cbd196",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt - send",
+        "links": [
+            "e3bf3fdd364dd194",
+            "eed88956dce2fb67",
+            "98583b238bfb617c"
+        ],
+        "x": 145,
+        "y": 680,
+        "wires": [
+            [
+                "02dccf8f780a61d9"
+            ]
+        ]
+    },
+    {
+        "id": "02dccf8f780a61d9",
+        "type": "switch",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "enabled",
+        "property": "mqtt.enabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 280,
+        "y": 680,
+        "wires": [
+            [
+                "4ca2b0783078bb87",
+                "49a4236523d8a934"
+            ]
+        ]
+    },
+    {
+        "id": "49a4236523d8a934",
+        "type": "debug",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "fc147ee782462bbe",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "6f2c0bf97f866aa6",
+        "name": "common - error",
+        "links": [
+            "0393d74b1a962de5",
+            "d2d52ac80369e7b7"
+        ],
+        "x": 145,
+        "y": 800,
+        "wires": [
+            [
+                "8b870d19217142fa"
+            ]
+        ]
+    },
+    {
+        "id": "8b870d19217142fa",
+        "type": "switch",
+        "z": "4c2feff02c9aebaa",
+        "g": "6f2c0bf97f866aa6",
+        "name": "empty",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 800,
+        "wires": [
+            [
+                "9f55bfd681e97786"
+            ]
+        ]
+    },
+    {
+        "id": "9f55bfd681e97786",
+        "type": "ui-notification",
+        "z": "4c2feff02c9aebaa",
+        "g": "6f2c0bf97f866aa6",
+        "ui": "df7710b4b2c4e55b",
+        "position": "top center",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "common - error",
+        "x": 480,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08a5cf610c97d769",
+        "type": "ui-template",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "group": "",
+        "page": "",
+        "ui": "df7710b4b2c4e55b",
+        "name": "common - ui - style",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": ".v-card .remove,\n.v-card-text .remove {\n    display: none !important;\n    visibility: hidden;\n    color: transparent !important;\n}\n\n.v-table__wrapper table thead {\n    display: none !important;\n}\ntbody td[data-column-key=lbl] {\n    font-weight: bold !important;\n}\n\n.v-tab-item--selected {\n    color: #0094ce !important;\n}\n\n.v-main {\n    padding-bottom: 2em;\n}\n#app-bar-actions img {\n    margin-right: 20px;\n}\n.ui-title span {\n    font-size: 1.4rem !important;\n    font-weight: normal !important;\n    padding: 0;\n    color: #0094ce;\n}\n\n.nrdb-ui-group {\n    border-radius: 4px;\n    box-shadow: 3px 2px 2px rgba(0, 55, 77, 0.25);\n}\n.oe_nav {\n    background: rgb(var(--v-theme-navigation-background));\n}\n#oe_header {\n    border: none;\n    padding-left: 1em;\n    background: rgb(var(--v-theme-navigation-background));\n}\n.v-application {\n    border-top: 1px solid #CCCCCC;\n    margin-top: -1px;\n}\n.nrdb-ui-gauge-tile-floating-label {\n    margin-top: -5px;\n    font-size: 0.75em !important;\n}\n.nrdb-ui-gauge-tile label:after {\n    content: '°C';\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 310,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7adf1bcdd6df3b31",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - custom",
+        "links": [
+            "ab9cd418038cefb2"
+        ],
+        "x": 145,
+        "y": 960,
+        "wires": [
+            [
+                "8760610a1e45ffab",
+                "0154b8f75648b065"
+            ]
+        ]
+    },
+    {
+        "id": "8760610a1e45ffab",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "tab",
+        "func": "if (msg.payload !== '' && typeof global.get('describe.hmi[\"' + msg.payload + '\"]', 'memoryOnly') === 'string') {\n    msg.tab = msg.payload;\n    msg.name = global.get('describe.hmi[\"' + msg.payload + '\"]', 'memoryOnly');\n    msg.payload = 'change';\n\n    return msg;\n}\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 960,
+        "wires": [
+            [
+                "5f28408f430feddf"
+            ]
+        ]
+    },
+    {
+        "id": "5f28408f430feddf",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "action",
+        "func": "// on unwanted state, stop here\nif (msg.payload.match((new RegExp('^(connect|change|lost)$'))) === null) {\n    return;\n}\n\n// on connect or lost connection, go to auth page\nif (msg.payload === 'connect' || msg.payload === 'lost') {\n    msg.payload = global.get('describe.app.hmi', 'memoryOnly');;\n\n    return [null, msg];\n}\n\n// ui main\nmsg.version = global.get('describe.app.version', 'memoryOnly');\nmsg.title = global.get('describe.app.title', 'memoryOnly');\nmsg.full = msg.title + ' v' + msg.version;\nmsg.git = \"https://github.com/dknr-domotic/\" + global.get('describe.app.git', 'memoryOnly');\nmsg.lang = 'FR-fr';\n\n// ui menu\nmsg.menus = {};\nmsg.titles = {};\nmsg.payload = {\n    'pages': {\n        'show': [],\n        'hide': []\n    }\n};\nlet s =0;\nlet pages = global.get('describe.hmi', 'memoryOnly') || {};\nfor (const tab in pages) {\n    msg.menus[tab] = true;\n    msg.titles[tab] = pages[tab];\n    msg.payload.pages.show[s++] = tab;\n\n    if (tab === msg.tab) {\n        msg.title = msg.title + ' - ' + pages[tab];\n    }\n}\n\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 1020,
+        "wires": [
+            [
+                "3681864d9f417484",
+                "d3965b3ecbc6aae9"
+            ],
+            [
+                "0154b8f75648b065"
+            ]
+        ]
+    },
+    {
+        "id": "3681864d9f417484",
+        "type": "delay",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "50ms",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 1020,
+        "wires": [
+            [
+                "ddab942f6d49a661"
+            ]
+        ]
+    },
+    {
+        "id": "ddab942f6d49a661",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - control",
+        "mode": "link",
+        "links": [
+            "269fe06d582be842",
+            "42ae67c19e3e3682",
+            "077fb23eafda84ad"
+        ],
+        "x": 1175,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "d3965b3ecbc6aae9",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - custom",
+        "mode": "link",
+        "links": [
+            "70ec9d97a8404d3b"
+        ],
+        "x": 1015,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "300df28f3025dc33",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - control",
+        "links": [],
+        "x": 145,
+        "y": 1020,
+        "wires": [
+            [
+                "0154b8f75648b065"
+            ]
+        ]
+    },
+    {
+        "id": "0154b8f75648b065",
+        "type": "ui-control",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - control",
+        "ui": "df7710b4b2c4e55b",
+        "events": "all",
+        "x": 320,
+        "y": 1020,
+        "wires": [
+            [
+                "e453d1f77363ac46"
+            ]
+        ]
+    },
+    {
+        "id": "e453d1f77363ac46",
+        "type": "change",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1020,
+        "wires": [
+            [
+                "8760610a1e45ffab"
+            ]
+        ]
+    },
+    {
+        "id": "269fe06d582be842",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "common - mqtt - form",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ddab942f6d49a661",
+            "ca5c502dcbc1ee15"
+        ],
+        "x": 145,
+        "y": 1140,
+        "wires": [
+            [
+                "913d3318a27c57f9"
+            ]
+        ]
+    },
+    {
+        "id": "913d3318a27c57f9",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "data",
+        "func": "msg.payload = { ...(global.get('describe.mqtt', 'memoryOnly') || { }), ...(global.get('mqtt', 'default') || { }) };\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 1140,
+        "wires": [
+            [
+                "8b76a374e82e1255"
+            ]
+        ]
+    },
+    {
+        "id": "8b76a374e82e1255",
+        "type": "ui-form",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "ui - mqtt - form",
+        "group": "4c116fe2697e0aa9",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Adresse IP du broker",
+                "key": "host",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Port",
+                "key": "port",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Topic",
+                "key": "topic",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Utilisateur",
+                "key": "username",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Mot de passe",
+                "key": "password",
+                "type": "password",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Home Assistant Discovery topic",
+                "key": "homeassistant",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Langue des options",
+                "key": "lang",
+                "type": "dropdown",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Intervalle de lecture de l'alarme (secondes, 60 minimum)",
+                "key": "interval",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Activation",
+                "key": "enabled",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "host": "",
+            "port": "",
+            "topic": "",
+            "username": "",
+            "password": "",
+            "homeassistant": "",
+            "enabled": false,
+            "lang": "fr",
+            "interval": 180
+        },
+        "submit": "Enregistrer",
+        "cancel": "",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [
+            {
+                "dropdown": "lang",
+                "value": "fr",
+                "label": "Français"
+            },
+            {
+                "dropdown": "lang",
+                "value": "en",
+                "label": "English"
+            }
+        ],
+        "x": 460,
+        "y": 1140,
+        "wires": [
+            [
+                "094401b4b908ed63"
+            ]
+        ]
+    },
+    {
+        "id": "094401b4b908ed63",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "data",
+        "func": "global.set('mqtt', msg.payload, 'default');\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1140,
+        "wires": [
+            [
+                "901bc3883a87d865"
+            ]
+        ]
+    },
+    {
+        "id": "901bc3883a87d865",
+        "type": "delay",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "50ms",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 1140,
+        "wires": [
+            [
+                "ca5c502dcbc1ee15"
+            ]
+        ]
+    },
+    {
+        "id": "ca5c502dcbc1ee15",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "common - mqtt - form",
+        "mode": "link",
+        "links": [
+            "05b0c0afa2f55df1",
+            "269fe06d582be842",
+            "b898845c38151a25"
+        ],
+        "x": 955,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "4df61c08c091eb2d",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - describe",
+        "links": [],
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "78526f3deecd40c3"
+            ]
+        ],
+        "g": "1789a729ea310f79"
+    },
+    {
+        "id": "78526f3deecd40c3",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "custom - describe",
+        "func": "msg.payload.project = 'dknr-verisure';\n\nmsg.payload.hmi = {\n    'detail': 'Alarme',\n    'add': 'Compte',\n    'mqtt': 'Configurer'\n};\n\n// Verisure France cloud API (same API as My Verisure application)\nmsg.payload.api = {\n    'url': 'https://customers.securitasdirect.fr/owa-api/graphql',\n    'country': 'FR',\n    'lang': 'fr',\n    'callby': 'OWA_10',\n    'prefix': 'OWA_______________',\n    'agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41',\n    'device': {\n        'brand': 'samsung',\n        'name': 'SM-S901U',\n        'os': '12',\n        'version': '10.102.0'\n    },\n    // GraphQL queries by operation name\n    'query': {\n        'mkLoginToken': 'mutation mkLoginToken($user: String!, $password: String!, $id: String!, $country: String!, $lang: String!, $callby: String!, $idDevice: String!, $idDeviceIndigitall: String!, $deviceType: String!, $deviceVersion: String!, $deviceResolution: String!, $deviceName: String!, $deviceBrand: String!, $deviceOsVersion: String!, $uuid: String!) { xSLoginToken(user: $user, password: $password, country: $country, lang: $lang, callby: $callby, id: $id, idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, deviceType: $deviceType, deviceVersion: $deviceVersion, deviceResolution: $deviceResolution, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, uuid: $uuid) { __typename res msg hash refreshToken legals changePassword needDeviceAuthorization mainUser } }',\n        'RefreshLogin': 'mutation RefreshLogin($refreshToken: String!, $id: String!, $country: String!, $lang: String!, $callby: String!, $idDevice: String!, $idDeviceIndigitall: String!, $deviceType: String!, $deviceVersion: String!, $deviceResolution: String!, $deviceName: String!, $deviceBrand: String!, $deviceOsVersion: String!, $uuid: String!) {\\n  xSRefreshLogin(refreshToken: $refreshToken, id: $id, country: $country, lang: $lang, callby: $callby, idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, deviceType: $deviceType, deviceVersion: $deviceVersion, deviceResolution: $deviceResolution, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, uuid: $uuid) {\\n    __typename\\n    res\\n    msg\\n    hash\\n    refreshToken\\n    legals\\n    changePassword\\n    needDeviceAuthorization\\n    mainUser\\n  }\\n}',\n        'mkValidateDevice': 'mutation mkValidateDevice($idDevice: String, $idDeviceIndigitall: String, $uuid: String, $deviceName: String, $deviceBrand: String, $deviceOsVersion: String, $deviceVersion: String) {\\n  xSValidateDevice(idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, uuid: $uuid, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, deviceVersion: $deviceVersion) {\\n    res\\n    msg\\n    hash\\n    refreshToken\\n    legals\\n  }\\n}\\n',\n        'mkSendOTP': 'mutation mkSendOTP($recordId: Int!, $otpHash: String!) {\\n  xSSendOtp(recordId: $recordId, otpHash: $otpHash) {\\n    res\\n    msg\\n  }\\n}\\n',\n        'Logout': 'mutation Logout {\\n  xSLogout\\n}\\n',\n        'mkInstallationList': 'query mkInstallationList {\\n  xSInstallations {\\n    installations {\\n      numinst\\n      alias\\n      panel\\n      type\\n    }\\n  }\\n}\\n',\n        'Srv': 'query Srv($numinst: String!, $uuid: String) {\\n  xSSrv(numinst: $numinst, uuid: $uuid) {\\n    res\\n    msg\\n    language\\n    installation {\\n      numinst\\n      role\\n      alias\\n      status\\n      panel\\n      sim\\n      instIbs\\n      services {\\n        idService\\n        active\\n        visible\\n        bde\\n        isPremium\\n        codOper\\n        request\\n        minWrapperVersion\\n        unprotectActive\\n        unprotectDeviceStatus\\n        instDate\\n        genericConfig {\\n          total\\n          attributes {\\n            key\\n            value\\n          }\\n        }\\n        attributes {\\n          attributes {\\n            name\\n            value\\n            active\\n          }\\n        }\\n      }\\n      configRepoUser {\\n        alarmPartitions {\\n          id\\n          enterStates\\n          leaveStates\\n        }\\n      }\\n      capabilities\\n    }\\n  }\\n}',\n        'Status': 'query Status($numinst: String!) {\\n  xSStatus(numinst: $numinst) {\\n    status\\n    timestampUpdate\\n    wifiConnected\\n    exceptions {\\n      status\\n      deviceType\\n      alias\\n    }\\n  }\\n}'\n    }\n};\n\nmsg.payload.enum = {\n    // Verisure panel status code\n    'state': {\n        'D': 'Désarmée',\n        'P': 'Partielle jour',\n        'Q': 'Partielle nuit',\n        'T': 'Totale',\n        'E': 'Périmétrique',\n        'B': 'Partielle jour et périmétrique',\n        'C': 'Partielle nuit et périmétrique',\n        'A': 'Totale et périmétrique',\n        'X': 'Annexe',\n        'R': 'Partielle jour et annexe',\n        'S': 'Partielle nuit et annexe',\n        'O': 'Totale et annexe'\n    }\n};\n\n// Translation of options labels (french is the reference language)\nmsg.payload.translate = {\n    'en': {\n        'Désarmée': 'Disarmed',\n        'Partielle jour': 'Partial day',\n        'Partielle nuit': 'Partial night',\n        'Totale': 'Total',\n        'Périmétrique': 'Perimeter',\n        'Partielle jour et périmétrique': 'Partial day and perimeter',\n        'Partielle nuit et périmétrique': 'Partial night and perimeter',\n        'Totale et périmétrique': 'Total and perimeter',\n        'Annexe': 'Annex',\n        'Partielle jour et annexe': 'Partial day and annex',\n        'Partielle nuit et annexe': 'Partial night and annex',\n        'Totale et annexe': 'Total and annex'\n    }\n};\n\nconst e = msg.payload.enum;\n\n// control entry: [name, entity, group, type, unit, default value, options: {key: name}, ha type, ha state_class, ha device_class, device field]\nmsg.payload.control = {\n    'panel': {\n        'state': ['Etat', 'state', 'sensor', 'enum', '', 'D', e.state, 'sensor', '', 'enum', 'status'],\n        'armed': ['Alarme armée', 'armed', 'sensor', 'binary', '', false, {}, 'binary_sensor', '', '', 'armed'],\n        'wifi': ['Wifi connecté', 'wifi', 'sensor', 'binary', '', false, {}, 'binary_sensor', '', 'connectivity', 'wifi'],\n        'timestamp': ['Mise à jour', 'timestamp', 'sensor', 'text', '', '', {}, 'sensor', '', '', 'timestamp']\n    }\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 100,
+        "wires": [
+            [
+                "6c2a140d445208f5"
+            ]
+        ],
+        "g": "1789a729ea310f79"
+    },
+    {
+        "id": "6c2a140d445208f5",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - describe",
+        "mode": "return",
+        "links": [],
+        "x": 580,
+        "y": 100,
+        "wires": [],
+        "g": "1789a729ea310f79"
+    },
+    {
+        "id": "70ec9d97a8404d3b",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - menu",
+        "links": [
+            "d3965b3ecbc6aae9"
+        ],
+        "x": 200,
+        "y": 222,
+        "wires": [
+            [
+                "9431d06e2f834cfd"
+            ]
+        ],
+        "g": "0ec7b28921064226"
+    },
+    {
+        "id": "9431d06e2f834cfd",
+        "type": "ui-template",
+        "z": "48135a54600713e8",
+        "group": "",
+        "page": "",
+        "ui": "df7710b4b2c4e55b",
+        "name": "custom - menu",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <Teleport v-if=\"mounted\" to=\"#oe_header\">\n        <v-toolbar class=\"oe_nav\"> \n        <v-btn-group variant=\"outlined\" divided>\n            <v-btn v-if=\"oe_menus.detail\" @click=\"oe_nav('detail')\" :title=\"oe_titles.detail\" icon=\"mdi-shield-home\"></v-btn> \n            <v-btn v-if=\"oe_menus.add\" @click=\"oe_nav('add')\" :title=\"oe_titles.add\" icon=\"mdi-account-key\"></v-btn> \n            <v-btn v-if=\"oe_menus.mqtt\" @click=\"oe_nav('mqtt')\" :title=\"oe_titles.mqtt\" icon=\"mdi-cog\"></v-btn> \n        </v-btn-group>\n        <v-toolbar-title :text=\"msg.title\"></v-toolbar-title>\n        <v-btn :href=\"msg.git\"><img height=\"32px\" src=\"/icon.png\" :title=\"msg.full\"></img></v-btn>\n        </v-toolbar>\n    </Teleport>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                oe_menus: { detail: true, add: true, mqtt: true },\n                oe_titles: { detail: '', add: '', mqtt: '' },\n                mounted: false\n            }\n        },\n        mounted() {\n            let div = document.createElement(\"div\");\n            div.id=\"oe_header\";\n            const el = document.body.querySelector(\"#app\").prepend(div);\n            this.mounted = true;\n        },\n        methods: {\n            oe_nav: function (page) {\n                this.send(page)\n            }\n        },\n        watch: {\n            msg: function (msg) {\n                document.documentElement.setAttribute(\"lang\", msg.lang);\n                document.documentElement.setAttribute(\"translate\", \"no\");\n                document.title = msg.title;\n                this.oe_menus = msg.menus;\n                this.oe_titles = msg.titles;\n            }\n        }\n    }\n\n</script>",
+        "storeOutMessages": true,
+        "passthru": false,
+        "resendOnRefresh": true,
+        "templateScope": "widget:ui",
+        "className": "",
+        "x": 390,
+        "y": 222,
+        "wires": [
+            [
+                "ab9cd418038cefb2"
+            ]
+        ],
+        "g": "0ec7b28921064226"
+    },
+    {
+        "id": "ab9cd418038cefb2",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - menu",
+        "mode": "link",
+        "links": [
+            "7adf1bcdd6df3b31"
+        ],
+        "x": 580,
+        "y": 222,
+        "wires": [],
+        "g": "0ec7b28921064226"
+    },
+    {
+        "id": "0b74e405a88fea2e",
+        "type": "inject",
+        "z": "48135a54600713e8",
+        "name": "reset",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 03 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 200,
+        "y": 344,
+        "wires": [
+            [
+                "a14ae55f0d865ce9"
+            ]
+        ],
+        "g": "24b112b799cd929a"
+    },
+    {
+        "id": "a14ae55f0d865ce9",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "data",
+        "func": "flow.set('last', { }, 'memoryOnly');\n\nreturn;",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 344,
+        "wires": [],
+        "g": "24b112b799cd929a"
+    },
+    {
+        "id": "4ca65d585c0cf39f",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - api",
+        "links": [],
+        "x": 200,
+        "y": 466,
+        "wires": [
+            [
+                "bd9e81a354fe000f"
+            ]
+        ],
+        "g": "587cdaf9e56c86ef"
+    },
+    {
+        "id": "bd9e81a354fe000f",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "request",
+        "func": "// Build a Verisure API request\n// msg.api: { operation, variables (optional), numinst (optional), otp: { hash, code } (optional) }\n// output 1: http request / output 2: invalid request, back to caller\n\nconst crypto = global.get('crypto');\nconst conf = global.get('describe.api', 'memoryOnly') || {};\nconst account = global.get('account', 'default') || {};\nconst installations = global.get('installations', 'default') || {};\nconst caps = flow.get('caps', 'memoryOnly') || {};\nconst api = msg.api;\n\nif (typeof api !== 'object' || api === null || typeof (conf.query || {})[api.operation] !== 'string' || typeof account.user !== 'string' || account.user === '') {\n    msg.result = { 'ok': false, 'status': 0, 'data': {}, 'error': 'Requête invalide', 'code': '', 'detail': {}, 'transient': false, 'waf': false };\n\n    return [null, msg];\n}\n\nconst op = api.operation;\nconst dev = conf.device || {};\nconst now = new Date();\n\n// Request id, same format as the mobile application\nconst id = conf.prefix + account.user + '_______________'\n    + now.getFullYear() + (now.getMonth() + 1) + now.getDate()\n    + now.getHours() + now.getMinutes() + (now.getMilliseconds() * 1000);\n\n// One operation id by runtime\nlet apollo = flow.get('apollo', 'memoryOnly');\nif (typeof apollo !== 'string') {\n    apollo = crypto.randomBytes(64).toString('hex');\n    flow.set('apollo', apollo, 'memoryOnly');\n}\n\nlet variables = { ...(api.variables || {}) };\n\nif (op === 'mkLoginToken' || op === 'RefreshLogin') {\n    variables = {\n        ...variables,\n        'id': id,\n        'country': conf.country,\n        'lang': conf.lang,\n        'callby': conf.callby,\n        'idDevice': account.device,\n        'idDeviceIndigitall': account.indigitall,\n        'deviceType': '',\n        'deviceVersion': dev.version,\n        'deviceResolution': '',\n        'deviceName': dev.name,\n        'deviceBrand': dev.brand,\n        'deviceOsVersion': dev.os,\n        'uuid': account.uuid\n    };\n    if (op === 'mkLoginToken') {\n        variables.user = account.user;\n    }\n}\n\nif (op === 'mkValidateDevice') {\n    variables = {\n        'idDevice': account.device,\n        'idDeviceIndigitall': account.indigitall,\n        'uuid': account.uuid,\n        'deviceName': dev.name,\n        'deviceBrand': dev.brand,\n        'deviceOsVersion': dev.os,\n        'deviceVersion': dev.version\n    };\n}\n\nlet headers = {\n    'app': JSON.stringify({ 'appVersion': dev.version, 'origin': 'native' }),\n    'User-Agent': conf.agent,\n    'content-type': 'application/json; charset=utf-8',\n    'X-APOLLO-OPERATION-ID': apollo,\n    'X-APOLLO-OPERATION-NAME': op,\n    'extension': '{\"mode\":\"full\"}'\n};\n\nif (typeof api.numinst === 'string' && typeof installations[api.numinst] === 'object') {\n    headers.numinst = api.numinst;\n    headers.panel = installations[api.numinst].panel || '';\n    if (typeof caps[api.numinst] === 'object' && typeof caps[api.numinst].token === 'string') {\n        headers['X-Capabilities'] = caps[api.numinst].token;\n    }\n}\n\nlet auth = {\n    'loginTimestamp': account.loginTimestamp || 0,\n    'user': account.user,\n    'id': id,\n    'country': conf.country,\n    'lang': conf.lang,\n    'callby': conf.callby\n};\n\nif (['mkValidateDevice', 'RefreshLogin', 'mkSendOTP'].includes(op)) {\n    auth.hash = '';\n    auth.refreshToken = '';\n    headers.auth = JSON.stringify(auth);\n} else if (op !== 'mkLoginToken' && typeof account.hash === 'string' && account.hash !== '') {\n    auth.hash = account.hash;\n    headers.auth = JSON.stringify(auth);\n}\n\nif (typeof api.otp === 'object' && api.otp !== null) {\n    headers.security = JSON.stringify({ 'token': api.otp.code, 'type': 'OTP', 'otpHash': api.otp.hash });\n}\n\nmsg.url = env.get('DKNR_VERISURE_URL') || conf.url;\nmsg.headers = headers;\nmsg.requestTimeout = 30000;\nmsg.payload = { 'operationName': op, 'variables': variables, 'query': conf.query[op] };\nif (Object.keys(variables).length === 0 && op === 'mkInstallationList') {\n    delete msg.payload.variables;\n}\n\nnode.status({ fill: 'blue', shape: 'ring', text: op });\n\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 466,
+        "wires": [
+            [
+                "354c9b4212e145ef"
+            ],
+            [
+                "5146aa664a50f124"
+            ]
+        ],
+        "g": "587cdaf9e56c86ef"
+    },
+    {
+        "id": "354c9b4212e145ef",
+        "type": "delay",
+        "z": "48135a54600713e8",
+        "name": "1/2s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 580,
+        "y": 466,
+        "wires": [
+            [
+                "8e488b7d715bf4c7"
+            ]
+        ],
+        "g": "587cdaf9e56c86ef"
+    },
+    {
+        "id": "8e488b7d715bf4c7",
+        "type": "http request",
+        "z": "48135a54600713e8",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 770,
+        "y": 466,
+        "wires": [
+            [
+                "bda08e2e15f75e69"
+            ]
+        ],
+        "g": "587cdaf9e56c86ef"
+    },
+    {
+        "id": "bda08e2e15f75e69",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "response",
+        "func": "// Normalize a Verisure API response then go back to caller\n// msg.result: { ok, status, data, error, code, detail, transient, waf }\n\nconst api = msg.api || {};\n\nlet raw = msg.payload;\nif (Buffer.isBuffer(raw)) {\n    raw = raw.toString();\n}\n\nlet body = raw;\nif (typeof raw === 'string') {\n    try {\n        body = JSON.parse(raw);\n    } catch (e) {\n        body = null;\n    }\n}\n\nlet result = {\n    'ok': false,\n    'status': msg.statusCode,\n    'data': {},\n    'error': '',\n    'code': '',\n    'detail': {},\n    'transient': false,\n    'waf': false\n};\n\nif (typeof msg.statusCode !== 'number') {\n    result.error = 'Verisure injoignable';\n    result.transient = true;\n} else if (msg.statusCode === 403 && typeof raw === 'string' && raw.includes('_Incapsula_Resource')) {\n    result.error = 'Accès temporairement bloqué par Verisure (trop de requêtes)';\n    result.transient = true;\n    result.waf = true;\n} else if (typeof body !== 'object' || body === null) {\n    result.error = 'Réponse invalide (HTTP ' + msg.statusCode + ')';\n    result.transient = true;\n} else {\n    if (typeof body.data === 'object' && body.data !== null) {\n        result.data = body.data;\n    }\n    if (Array.isArray(body.errors) && body.errors.length > 0) {\n        const first = body.errors[0] || {};\n        const data = typeof first.data === 'object' && first.data !== null ? first.data : {};\n        result.error = String(first.message || 'Erreur');\n        result.code = data.err !== undefined && data.err !== null ? String(data.err) : '';\n        result.detail = data;\n        // Verisure own fault, not a verdict\n        result.transient = first.name === 'TimeoutError' || data.err === 'TimeoutError' || Number(data.status) >= 500;\n    } else if (msg.statusCode >= 400) {\n        result.error = 'HTTP ' + msg.statusCode;\n        result.transient = msg.statusCode >= 500 || msg.statusCode === 403;\n    } else {\n        result.ok = true;\n    }\n}\n\nmsg.result = result;\n\n// Do not keep secrets in message\ndelete msg.headers;\ndelete msg.url;\ndelete msg.requestTimeout;\ndelete msg.responseUrl;\ndelete msg.redirectList;\ndelete msg.retry;\ndelete api.variables;\ndelete api.otp;\nmsg.payload = '';\n\nif (result.ok) {\n    node.status({ fill: 'green', shape: 'dot', text: api.operation });\n} else {\n    node.status({ fill: 'red', shape: 'ring', text: api.operation + ' : ' + result.error + (result.code !== '' ? ' (' + result.code + ')' : '') });\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 466,
+        "wires": [
+            [
+                "5146aa664a50f124"
+            ]
+        ],
+        "g": "587cdaf9e56c86ef"
+    },
+    {
+        "id": "5146aa664a50f124",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - api",
+        "mode": "return",
+        "links": [],
+        "x": 1150,
+        "y": 466,
+        "wires": [],
+        "g": "587cdaf9e56c86ef"
+    },
+    {
+        "id": "126427c796c8e9c7",
+        "type": "inject",
+        "z": "48135a54600713e8",
+        "name": "30 s",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "15",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 200,
+        "y": 588,
+        "wires": [
+            [
+                "80fa9871158692f0"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "b110f2810071296c",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - port",
+        "links": [
+            "9c5c02b4c2785274",
+            "ad114fddba29e18c",
+            "f8e2855e8e00b1a9"
+        ],
+        "x": 200,
+        "y": 648,
+        "wires": [
+            [
+                "80fa9871158692f0"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "80fa9871158692f0",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "session",
+        "func": "// Check session before reading the alarm (cloud API, no local access)\n// msg.force: read now (still one read by 20 seconds)\n// output 1: session valid / output 2: session renewal request\n\nconst account = global.get('account', 'default') || {};\n\nif (account.status !== 'ok') {\n    node.status({ fill: 'grey', shape: 'ring', text: 'pas de compte connecté' });\n\n    return;\n}\n\nconst now = Date.now();\nconst interval = Math.max(60, Number(global.get('mqtt.interval', 'default')) || 180) * 1000;\nconst last = flow.get('last_poll', 'memoryOnly') || 0;\nconst busy = flow.get('busy', 'memoryOnly') || 0;\nconst pause = flow.get('pause', 'memoryOnly') || 0;\n\n// previous read not finished, or Verisure asked to slow down\nif (now - busy < 90000 || now < pause) {\n\n    return;\n}\n\nif (now - last < (msg.force === true ? 20000 : interval)) {\n\n    return;\n}\n\nflow.set('busy', now, 'memoryOnly');\nflow.set('last_poll', now, 'memoryOnly');\n\nif (typeof account.hash === 'string' && account.hash !== '' && (account.exp || 0) - now > 60000) {\n    node.status({ fill: 'green', shape: 'dot', text: 'session valide' });\n\n    return [{ 'payload': '' }, null];\n}\n\nnode.status({ fill: 'blue', shape: 'ring', text: 'renouvellement de la session' });\n\nreturn [null, { 'api': { 'operation': 'RefreshLogin', 'variables': { 'refreshToken': account.refreshToken || '' } } }];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 588,
+        "wires": [
+            [
+                "8d54b65b90e434a5"
+            ],
+            [
+                "287cfc4de0008d62"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "287cfc4de0008d62",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 580,
+        "y": 648,
+        "wires": [
+            [
+                "a8b54fb99e7e1eff"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "a8b54fb99e7e1eff",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "renew",
+        "func": "// Session renewal response\n// output 1: session valid / output 2: notification (limited) / output 3: refresh UI / output 4: notification\n\n// Read expiration of a token (ms), 5 minutes if unknown\nfunction expire(token) {\n    try {\n        const claims = JSON.parse(Buffer.from(String(token).split('.')[1], 'base64').toString());\n        if (typeof claims.exp === 'number') {\n\n            return claims.exp * 1000;\n        }\n    } catch (e) { }\n\n    return Date.now() + 300000;\n}\n\n// Save session tokens (refresh token changes at each renewal)\nfunction store(account, data) {\n    account.hash = data.hash;\n    if (typeof data.refreshToken === 'string' && data.refreshToken !== '') {\n        account.refreshToken = data.refreshToken;\n    }\n    account.exp = expire(data.hash);\n    account.loginTimestamp = Date.now();\n    account.status = 'ok';\n    global.set('account', account, 'default');\n}\n\nconst r = msg.result || {};\nconst data = (r.data || {}).xSRefreshLogin || {};\nconst account = global.get('account', 'default') || {};\n\nif (r.ok === true && data.res === 'OK' && typeof data.hash === 'string' && data.hash !== '') {\n    store(account, data);\n    node.status({ fill: 'green', shape: 'dot', text: 'session renouvelée' });\n\n    return [{ 'payload': '' }, null, null, null];\n}\n\nflow.set('busy', 0, 'memoryOnly');\n\nif (r.waf === true) {\n    flow.set('pause', Date.now() + 900000, 'memoryOnly');\n}\n\n// Session refused by Verisure: never retry alone, the user must login again\nif (r.transient !== true && (['60067', '60052'].includes(r.code) || (account.refreshToken || '') === '')) {\n    account.status = 'reauth';\n    account.hash = '';\n    account.refreshToken = '';\n    global.set('account', account, 'default');\n    node.status({ fill: 'red', shape: 'ring', text: 'session expirée' });\n\n    return [null, null, { 'payload': '' }, { 'payload': 'Session Verisure expirée : reconnectez-vous depuis la page Compte' }];\n}\n\nnode.status({ fill: 'red', shape: 'ring', text: r.error || 'erreur' });\n\nreturn [null, { 'payload': 'Verisure : renouvellement de la session impossible (' + (r.error || 'réponse inattendue') + ')' }, null, null];",
+        "outputs": 4,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 648,
+        "wires": [
+            [
+                "8d54b65b90e434a5"
+            ],
+            [
+                "03c0e334690856da"
+            ],
+            [
+                "f1f676ee41b5c846"
+            ],
+            [
+                "0393d74b1a962de5"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "8d54b65b90e434a5",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "list",
+        "func": "// Prepare one read by installation\n// output 1: services request (capabilities) / output 2: status request / output 3: installations request\n\nconst account = global.get('account', 'default') || {};\nconst installations = global.get('installations', 'default') || {};\nconst caps = flow.get('caps', 'memoryOnly') || {};\nconst ids = Object.keys(installations);\nconst now = Date.now();\n\nif (ids.length === 0) {\n\n    return [null, null, { 'api': { 'operation': 'mkInstallationList' } }];\n}\n\nfor (const id of ids) {\n    if (typeof caps[id] !== 'object' || (caps[id].exp || 0) - now < 60000) {\n        node.send([{ 'topic': id, 'api': { 'operation': 'Srv', 'numinst': id, 'variables': { 'numinst': id, 'uuid': account.uuid } } }, null, null]);\n    } else {\n        node.send([null, { 'topic': id, 'api': { 'operation': 'Status', 'numinst': id, 'variables': { 'numinst': id } } }, null]);\n    }\n}\n\nreturn;",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 588,
+        "wires": [
+            [
+                "ee3fa4114dc20d05"
+            ],
+            [
+                "e7d4e2190fe1dac1"
+            ],
+            [
+                "1c66cc723241e872"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "ee3fa4114dc20d05",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 1150,
+        "y": 588,
+        "wires": [
+            [
+                "6e2ccd057734b5cd"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "6e2ccd057734b5cd",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "services",
+        "func": "// Services response, keep capabilities of the installation\n// output 1: status request / output 2: notification\n\n// Read expiration of a token (ms), 5 minutes if unknown\nfunction expire(token) {\n    try {\n        const claims = JSON.parse(Buffer.from(String(token).split('.')[1], 'base64').toString());\n        if (typeof claims.exp === 'number') {\n\n            return claims.exp * 1000;\n        }\n    } catch (e) { }\n\n    return Date.now() + 300000;\n}\n\n// Save session tokens (refresh token changes at each renewal)\nfunction store(account, data) {\n    account.hash = data.hash;\n    if (typeof data.refreshToken === 'string' && data.refreshToken !== '') {\n        account.refreshToken = data.refreshToken;\n    }\n    account.exp = expire(data.hash);\n    account.loginTimestamp = Date.now();\n    account.status = 'ok';\n    global.set('account', account, 'default');\n}\n\nconst r = msg.result || {};\nconst data = ((r.data || {}).xSSrv || {}).installation;\nconst id = msg.topic;\n\nif (r.ok !== true || typeof data !== 'object' || data === null) {\n    flow.set('busy', 0, 'memoryOnly');\n    if (r.waf === true) {\n        flow.set('pause', Date.now() + 900000, 'memoryOnly');\n    }\n    if (r.code === '60067') {\n        global.set('account.exp', 0, 'default');\n    }\n\n    return [null, { 'payload': 'Verisure : lecture de l\\'installation ' + id + ' impossible (' + (r.error || 'réponse inattendue') + ')' }];\n}\n\nif (typeof data.capabilities === 'string' && data.capabilities !== '') {\n    const caps = flow.get('caps', 'memoryOnly') || {};\n    caps[id] = { 'token': data.capabilities, 'exp': expire(data.capabilities) };\n    flow.set('caps', caps, 'memoryOnly');\n}\n\n// panel and alias can change\nconst installations = global.get('installations', 'default') || {};\nif (typeof installations[id] === 'object') {\n    let changed = false;\n    for (const k of ['alias', 'panel']) {\n        if (typeof data[k] === 'string' && data[k] !== '' && installations[id][k] !== data[k]) {\n            installations[id][k] = data[k];\n            changed = true;\n        }\n    }\n    if (changed) {\n        global.set('installations', installations, 'default');\n    }\n}\n\nreturn [{ 'topic': id, 'api': { 'operation': 'Status', 'numinst': id, 'variables': { 'numinst': id } } }, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 588,
+        "wires": [
+            [
+                "e7d4e2190fe1dac1"
+            ],
+            [
+                "03c0e334690856da"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "e7d4e2190fe1dac1",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 1530,
+        "y": 588,
+        "wires": [
+            [
+                "128edd1adc39dc0f"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "128edd1adc39dc0f",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "parse",
+        "func": "// Parse alarm status and store it in memory\n// output 1: device updated (topic = installation number) / output 2: new device found / output 3: notification\n\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst installations = global.get('installations', 'default') || {};\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst r = msg.result || {};\nconst data = (r.data || {}).xSStatus;\nconst id = msg.topic;\nconst inst = installations[id];\n\nflow.set('busy', 0, 'memoryOnly');\n\nif (typeof inst !== 'object') {\n\n    return;\n}\n\nif (r.ok !== true || typeof data !== 'object' || data === null || typeof data.status !== 'string') {\n    if (r.waf === true) {\n        flow.set('pause', Date.now() + 900000, 'memoryOnly');\n    }\n    // session closed by Verisure, renew it at next read\n    if (r.code === '60067') {\n        global.set('account.exp', 0, 'default');\n    }\n    node.status({ fill: 'red', shape: 'ring', text: inst.alias + ' : ' + (r.error || 'réponse invalide') });\n\n    return [null, null, { 'payload': 'Verisure : lecture de l\\'alarme ' + inst.alias + ' impossible (' + (r.error || 'réponse invalide') + ')' }];\n}\n\nconst added = typeof devices[id] !== 'object';\nconst states = (describe.enum || {}).state || {};\n\ndevices[id] = {\n    ...(devices[id] || {}),\n    'id': id,\n    'family': 'panel',\n    'name': inst.alias,\n    'model': inst.panel,\n    'status': data.status,\n    'armed': data.status !== '' && data.status !== 'D',\n    'wifi': typeof data.wifiConnected === 'boolean' ? data.wifiConnected : undefined,\n    'timestamp': data.timestampUpdate || '',\n    'exceptions': Array.isArray(data.exceptions) ? data.exceptions.length : 0,\n    'updated': Date.now()\n};\n\nglobal.set('devices', devices, 'memoryOnly');\n\nif (typeof states[data.status] === 'string') {\n    node.status({ fill: 'green', shape: 'dot', text: inst.alias + ' : ' + states[data.status] });\n} else {\n    node.status({ fill: 'yellow', shape: 'ring', text: inst.alias + ' : état inconnu ' + data.status });\n}\n\nreturn [{ 'topic': id, 'payload': id }, added ? { 'topic': 'discovery', 'payload': '' } : null, null];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1720,
+        "y": 588,
+        "wires": [
+            [
+                "1ed4c10211282967"
+            ],
+            [
+                "6f7c4bb130956955"
+            ],
+            [
+                "03c0e334690856da"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "1ed4c10211282967",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - port - publish",
+        "mode": "link",
+        "links": [
+            "fe0eaf4da780c277"
+        ],
+        "x": 1910,
+        "y": 588,
+        "wires": [],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "6f7c4bb130956955",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - port - discovery",
+        "mode": "link",
+        "links": [
+            "b898845c38151a25"
+        ],
+        "x": 1910,
+        "y": 648,
+        "wires": [],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "03c0e334690856da",
+        "type": "delay",
+        "z": "48135a54600713e8",
+        "name": "1/10min",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "10",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 708,
+        "wires": [
+            [
+                "0393d74b1a962de5"
+            ]
+        ],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "0393d74b1a962de5",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - port - error",
+        "mode": "link",
+        "links": [
+            "fc147ee782462bbe"
+        ],
+        "x": 1910,
+        "y": 708,
+        "wires": [],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "f1f676ee41b5c846",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - port - ui",
+        "mode": "link",
+        "links": [
+            "077fb23eafda84ad",
+            "42ae67c19e3e3682"
+        ],
+        "x": 960,
+        "y": 708,
+        "wires": [],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "1c66cc723241e872",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - port - installations",
+        "mode": "link",
+        "links": [
+            "8e7c99f2d0685f48"
+        ],
+        "x": 1150,
+        "y": 648,
+        "wires": [],
+        "g": "2f50b1b725e56b74"
+    },
+    {
+        "id": "95ea60fe773e266c",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - port - in",
+        "links": [
+            "25ce94531dd6fbe4"
+        ],
+        "x": 200,
+        "y": 830,
+        "wires": [
+            [
+                "8f28443a092bd616",
+                "98217d9b78db1421"
+            ]
+        ],
+        "g": "c18ec2d737314ebd"
+    },
+    {
+        "id": "8f28443a092bd616",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "control in",
+        "func": "// DKNR command: topic / set / verisure / id / entity = value\n// refresh entity: read alarm now\n\nconst installations = global.get('installations', 'default') || {};\n\nconst path = String(msg.topic || '').split('/');\nif (path.length < 5) {\n\n    return;\n}\n\nconst entity = path.pop();\nconst id = path.pop();\n\nnode.status({ text: id + ' - ' + entity });\n\nif (typeof installations[id] !== 'object' || entity !== 'refresh') {\n\n    return;\n}\n\nreturn { 'payload': '', 'force': true };",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 830,
+        "wires": [
+            [
+                "9c5c02b4c2785274"
+            ]
+        ],
+        "g": "c18ec2d737314ebd"
+    },
+    {
+        "id": "9c5c02b4c2785274",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - port - control",
+        "mode": "link",
+        "links": [
+            "b110f2810071296c"
+        ],
+        "x": 580,
+        "y": 830,
+        "wires": [],
+        "g": "c18ec2d737314ebd"
+    },
+    {
+        "id": "98217d9b78db1421",
+        "type": "debug",
+        "z": "48135a54600713e8",
+        "name": "custom - port - in",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 890,
+        "wires": [],
+        "g": "c18ec2d737314ebd"
+    },
+    {
+        "id": "fe0eaf4da780c277",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - publish",
+        "links": [
+            "1ed4c10211282967"
+        ],
+        "x": 200,
+        "y": 1012,
+        "wires": [
+            [
+                "ceaa91c2ab01998d"
+            ]
+        ],
+        "g": "61f58f3983d62bbd"
+    },
+    {
+        "id": "ceaa91c2ab01998d",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "mqtt",
+        "func": "// Publish changed values of a device to DKNR MQTT topic: topic / get / verisure / id / entity\n\nconst enabled = global.get('mqtt.enabled', 'default') || false;\nconst topic = global.get('mqtt.topic', 'default') || '';\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst source = 'verisure';\nconst id = msg.topic;\nconst dev = devices[id];\n\nif (!enabled || topic === '' || typeof dev !== 'object') {\n\n    return;\n}\n\nfunction value(dev, def) {\n    const raw = dev[def[10]];\n    if (raw === undefined || raw === null || raw === '') {\n\n        return undefined;\n    }\n    if (def[3] === 'enum') {\n\n        // DKNR value is the key, labels are in discovery options\n        return typeof def[6][String(raw)] === 'string' ? String(raw) : undefined;\n    }\n    if (def[3] === 'binary') {\n\n        return raw === true || raw === 1 ? 1 : 0;\n    }\n\n    return raw;\n}\n\nconst control = (describe.control || {})[dev.family] || {};\n\nfor (const k in control) {\n    const v = value(dev, control[k]);\n    if (v === undefined) {\n\n        continue;\n    }\n\n    const last = 'last[\"' + id + '_' + control[k][1] + '\"]';\n    if (flow.get(last, 'memoryOnly') === v) {\n\n        continue;\n    }\n    flow.set(last, v, 'memoryOnly');\n\n    node.send({\n        'topic': [topic, 'get', source, id, control[k][1]].join('/'),\n        'payload': v,\n        'qos': 0,\n        'retain': true\n    });\n}\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1012,
+        "wires": [
+            [
+                "eed88956dce2fb67"
+            ]
+        ],
+        "g": "61f58f3983d62bbd"
+    },
+    {
+        "id": "eed88956dce2fb67",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - publish - mqtt",
+        "mode": "link",
+        "links": [
+            "d5bdaec879cbd196"
+        ],
+        "x": 580,
+        "y": 1012,
+        "wires": [],
+        "g": "61f58f3983d62bbd"
+    },
+    {
+        "id": "b898845c38151a25",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - discovery",
+        "links": [
+            "ca5c502dcbc1ee15",
+            "6f7c4bb130956955"
+        ],
+        "x": 200,
+        "y": 1134,
+        "wires": [
+            [
+                "b2327d1a9a1b2241"
+            ]
+        ],
+        "g": "29e1250dbdb56a71"
+    },
+    {
+        "id": "6b06942abfcca4be",
+        "type": "inject",
+        "z": "48135a54600713e8",
+        "name": "custom - discovery",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "45",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 200,
+        "y": 1194,
+        "wires": [
+            [
+                "b2327d1a9a1b2241"
+            ]
+        ],
+        "g": "29e1250dbdb56a71"
+    },
+    {
+        "id": "b2327d1a9a1b2241",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "discovery",
+        "func": "// Publish DKNR discovery and Home Assistant MQTT discovery of all known devices\n\nconst enabled = global.get('mqtt.enabled', 'default') || false;\nconst topic = global.get('mqtt.topic', 'default') || '';\nconst discovery = global.get('mqtt.homeassistant', 'default') || '';\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst source = 'verisure';\n\n// Options labels in the language of the MQTT configuration\nconst lang = global.get('mqtt.lang', 'default') || 'fr';\nconst words = (describe.translate || {})[lang] || {};\nconst tr = s => typeof s === 'string' && typeof words[s] === 'string' ? words[s] : s;\n// Home Assistant template mapping a value with a dictionary\nconst haMap = m => '{{ ' + JSON.stringify(m) + '[value] | default(value) }}';\n\nif (!enabled || topic === '') {\n\n    return;\n}\n\n// Values are published again after a discovery\nflow.set('last', {}, 'memoryOnly');\n\n// Source definition\nnode.send({\n    'topic': [topic, 'discovery', source].join('/'),\n    'payload': describe.app,\n    'qos': 0,\n    'retain': true\n});\n\nfunction value(dev, def) {\n    const raw = dev[def[10]];\n    if (raw === undefined || raw === null || raw === '') {\n\n        return undefined;\n    }\n    if (def[3] === 'enum') {\n\n        return def[6][String(raw)];\n    }\n    if (def[3] === 'binary') {\n\n        return raw === true || raw === 1 ? 1 : 0;\n    }\n\n    return raw;\n}\n\nfor (const id in devices) {\n    const dev = devices[id];\n    const control = (describe.control || {})[dev.family] || {};\n\n    const device = {\n        'identifiers': [\n            ['dknr', source, id].join('_')\n        ],\n        'manufacturer': 'Verisure',\n        'model': dev.model || 'Verisure',\n        'name': 'Verisure ' + (dev.name || id)\n    };\n\n    // Device definition\n    node.send({\n        'topic': [topic, 'discovery', source, id].join('/'),\n        'payload': {\n            'name': dev.name,\n        },\n        'qos': 0,\n        'retain': true\n    });\n\n    for (const k in control) {\n        const def = control[k];\n        const key = def[1];\n\n        // enum options: key => translated label\n        let options = {};\n        if (def[3] === 'enum') {\n            for (const o in def[6]) {\n                options[o] = tr(def[6][o]);\n            }\n        }\n\n        // only entities available on this device (commands are always available)\n        if (def[2] !== 'command' && value(dev, def) === undefined) {\n\n            continue;\n        }\n\n        // dknr\n        node.send({\n            'topic': [topic, 'discovery', source, id, key].join('/'),\n            'payload': {\n                'name': def[0],\n                'group': def[2],\n                'type': def[3],\n                'unit': def[4],\n                'value': def[3] === 'binary' ? (def[5] ? 1 : 0) : def[5],\n                'options': options\n            },\n            'qos': 0,\n            'retain': true\n        });\n\n        // ha\n        if (discovery === '') {\n\n            continue;\n        }\n\n        let payload = {\n            'unique_id': ['dknr', source, id, key].join('_'),\n            'name': def[0],\n            'state_topic': [topic, 'get', source, id, key].join('/'),\n            'device': device\n        };\n\n        if (def[7] === 'sensor') {\n            if (def[4] !== '') {\n                payload.unit_of_measurement = def[4];\n            }\n            if (def[8] !== '') {\n                payload.state_class = def[8];\n            }\n            if (def[9] !== '') {\n                payload.device_class = def[9];\n            }\n            if (def[9] === 'enum') {\n                payload.options = [...new Set(Object.values(options))];\n                payload.value_template = haMap(options);\n            }\n            if (['timestamp'].includes(key)) {\n                payload.entity_category = 'diagnostic';\n            }\n        }\n        else if (def[7] === 'binary_sensor') {\n            payload.payload_on = '1';\n            payload.payload_off = '0';\n            if (def[9] !== '') {\n                payload.device_class = def[9];\n            }\n            if (['connectivity'].includes(def[9])) {\n                payload.entity_category = 'diagnostic';\n            }\n        }\n        else {\n\n            continue;\n        }\n\n        node.send({\n            'topic': [discovery, def[7], source, id + '_' + key, 'config'].join('/'),\n            'payload': payload,\n            'qos': 0,\n            'retain': true\n        });\n    }\n}\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1134,
+        "wires": [
+            [
+                "df58e1332d9b9265",
+                "729d251fc4615f70"
+            ]
+        ],
+        "g": "29e1250dbdb56a71"
+    },
+    {
+        "id": "df58e1332d9b9265",
+        "type": "delay",
+        "z": "48135a54600713e8",
+        "name": "20ms",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 580,
+        "y": 1134,
+        "wires": [
+            [
+                "e3bf3fdd364dd194"
+            ]
+        ],
+        "g": "29e1250dbdb56a71"
+    },
+    {
+        "id": "e3bf3fdd364dd194",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom_discovery",
+        "mode": "link",
+        "links": [
+            "d5bdaec879cbd196"
+        ],
+        "x": 770,
+        "y": 1134,
+        "wires": [],
+        "g": "29e1250dbdb56a71"
+    },
+    {
+        "id": "729d251fc4615f70",
+        "type": "debug",
+        "z": "48135a54600713e8",
+        "name": "custom - discovery",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1194,
+        "wires": [],
+        "g": "29e1250dbdb56a71"
+    },
+    {
+        "id": "42ae67c19e3e3682",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - detail",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ddab942f6d49a661",
+            "f1f676ee41b5c846",
+            "f8e2855e8e00b1a9"
+        ],
+        "x": 200,
+        "y": 1316,
+        "wires": [
+            [
+                "fc13877bc8688552",
+                "215179f09ce78515"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "fc13877bc8688552",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "get names",
+        "func": "// Fill installation selector\n// output 1: auto select single installation / output 2: dropdown\n\nflow.set('current_device', '', 'memoryOnly');\n\ndelete msg.dashboard;\ndelete msg.tab;\ndelete msg.name;\ndelete msg.version;\ndelete msg.title;\ndelete msg.full;\ndelete msg.git;\ndelete msg.lang;\ndelete msg.menus;\ndelete msg.titles;\ndelete msg.options;\ndelete msg.force;\ndelete msg.api;\ndelete msg.result;\n\nconst installations = global.get('installations', 'default') || {};\nconst ids = Object.keys(installations).sort((a, b) => String(installations[a].alias).localeCompare(String(installations[b].alias)));\n\nmsg.payload = '';\nmsg.class = '';\nmsg.enabled = true;\nmsg.options = [{\n    'label': '',\n    'value': ''\n}];\n\nfor (const id of ids) {\n    msg.options.push({\n        'label': installations[id].alias + ' (' + id + ')',\n        'value': id\n    });\n}\n\nif (ids.length === 0) {\n    msg.class = 'remove';\n    msg.enabled = false;\n    msg.options = [];\n\n    return [null, msg];\n}\n\nif (ids.length === 1) {\n    node.send([{ 'payload': ids[0] }, null]);\n    msg.class = 'remove';\n    msg.enabled = false;\n\n    return [null, msg];\n}\n\nreturn [null, msg];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1316,
+        "wires": [
+            [
+                "bbbf0a92c56392d6"
+            ],
+            [
+                "5fe9ae20996803b3"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "5fe9ae20996803b3",
+        "type": "ui-dropdown",
+        "z": "48135a54600713e8",
+        "group": "117d5289b94a0fc6",
+        "name": "custom - detail - select",
+        "label": "Sélectionner une installation",
+        "tooltip": "",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 580,
+        "y": 1376,
+        "wires": [
+            [
+                "3b9508c44f7033cc"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "3b9508c44f7033cc",
+        "type": "switch",
+        "z": "48135a54600713e8",
+        "name": "empty",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 770,
+        "y": 1376,
+        "wires": [
+            [
+                "bbbf0a92c56392d6"
+            ],
+            [
+                "215179f09ce78515"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "bbbf0a92c56392d6",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "render",
+        "func": "// Show an installation\n// output 1: table / output 2: refresh button / output 3: refresh loop\n\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst installations = global.get('installations', 'default') || {};\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst account = global.get('account', 'default') || {};\nconst id = msg.payload;\nconst inst = installations[id];\nconst dev = devices[id];\n\nconst hide = { 'payload': '', 'class': 'remove', 'enabled': false };\nconst show = { 'payload': '', 'class': '', 'enabled': true };\nconst zone = { 'timeZone': env.get('TZ') || 'Europe/Paris' };\n\nif (typeof inst !== 'object') {\n    flow.set('current_device', '', 'memoryOnly');\n\n    return [{ 'payload': [], 'class': 'remove' }, hide, null];\n}\n\nflow.set('current_device', id, 'memoryOnly');\n\nfunction value(dev, def) {\n    const raw = dev[def[10]];\n    if (raw === undefined || raw === null || raw === '') {\n\n        return undefined;\n    }\n    if (def[3] === 'enum') {\n\n        return def[6][String(raw)];\n    }\n    if (def[3] === 'binary') {\n\n        return raw === true || raw === 1 ? 1 : 0;\n    }\n\n    return raw;\n}\n\nlet rows = [];\nfunction add(lbl, val) {\n    if (val !== undefined && val !== null && val !== '') {\n        rows.push({ 'lbl': lbl, 'val': String(val) });\n    }\n}\n\nadd('Nom', inst.alias);\nadd('Installation', id);\nadd('Centrale', inst.panel);\n\nif (account.status === 'reauth') {\n    add('Session', 'Expirée, reconnectez-vous depuis la page Compte');\n}\n\nif (typeof dev === 'object') {\n    const control = (describe.control || {})[dev.family] || {};\n    for (const k in control) {\n        const def = control[k];\n        if (def[2] !== 'sensor') {\n\n            continue;\n        }\n\n        let v = value(dev, def);\n        if (v === undefined) {\n\n            continue;\n        }\n\n        if (def[3] === 'binary') {\n            v = v === 1 ? 'Oui' : 'Non';\n        } else if (def[4] !== '') {\n            v = v + ' ' + def[4];\n        }\n\n        add(def[0], v);\n    }\n\n    if (dev.exceptions > 0) {\n        add('Anomalies', dev.exceptions);\n    }\n    add('Dernière lecture', new Date(dev.updated).toLocaleString('fr-FR', zone));\n} else {\n    add('Etat', 'En attente de la première lecture');\n}\n\nreturn [\n    { 'payload': rows, 'class': '' },\n    account.status === 'ok' ? show : hide,\n    { 'payload': id }\n];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1316,
+        "wires": [
+            [
+                "7a75fd81ea18e5d2"
+            ],
+            [
+                "af69d68ff037ea11"
+            ],
+            [
+                "cb68300067bc2ba3"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "7a75fd81ea18e5d2",
+        "type": "ui-table",
+        "z": "48135a54600713e8",
+        "group": "117d5289b94a0fc6",
+        "name": "custom - detail - table",
+        "label": "",
+        "order": 2,
+        "width": "6",
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "",
+                "key": "lbl",
+                "keyType": "key",
+                "type": "text",
+                "width": "40%",
+                "align": "end"
+            },
+            {
+                "title": "",
+                "key": "val",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 1150,
+        "y": 1316,
+        "wires": [
+            []
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "af69d68ff037ea11",
+        "type": "ui-button",
+        "z": "48135a54600713e8",
+        "group": "117d5289b94a0fc6",
+        "name": "custom - detail - refresh",
+        "label": "Actualiser",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "refresh",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1150,
+        "y": 1376,
+        "wires": [
+            [
+                "db7608c7fc0789d8"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "db7608c7fc0789d8",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "refresh",
+        "func": "// UI refresh button, read alarm now\n\nreturn { 'payload': '', 'force': true };",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 1376,
+        "wires": [
+            [
+                "ad114fddba29e18c"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "ad114fddba29e18c",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - detail - refresh",
+        "mode": "link",
+        "links": [
+            "b110f2810071296c"
+        ],
+        "x": 1530,
+        "y": 1376,
+        "wires": [],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "cb68300067bc2ba3",
+        "type": "trigger",
+        "z": "48135a54600713e8",
+        "name": "5s",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1150,
+        "y": 1436,
+        "wires": [
+            [
+                "fe917db853e72abe"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "fe917db853e72abe",
+        "type": "change",
+        "z": "48135a54600713e8",
+        "name": "current",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::current_device",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1340,
+        "y": 1436,
+        "wires": [
+            [
+                "7ade51e419974721"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "7ade51e419974721",
+        "type": "switch",
+        "z": "48135a54600713e8",
+        "name": "empty",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1530,
+        "y": 1436,
+        "wires": [
+            [
+                "bbbf0a92c56392d6"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "215179f09ce78515",
+        "type": "change",
+        "z": "48135a54600713e8",
+        "name": "hide",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "class",
+                "pt": "msg",
+                "to": "remove",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1496,
+        "wires": [
+            [
+                "7a75fd81ea18e5d2",
+                "af69d68ff037ea11"
+            ]
+        ],
+        "g": "6f4ec0a5ceecfce4"
+    },
+    {
+        "id": "077fb23eafda84ad",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - account",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ddab942f6d49a661",
+            "f1f676ee41b5c846",
+            "f8e2855e8e00b1a9",
+            "c70c2e01325dbe6e"
+        ],
+        "x": 200,
+        "y": 1618,
+        "wires": [
+            [
+                "e235cda378288631"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "e235cda378288631",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "default",
+        "func": "// Prepare account page\n// output 1: login form / output 2: phone selector / output 3: SMS button / output 4: code form / output 5: table / output 6: logout button\n\ndelete msg.dashboard;\ndelete msg.tab;\ndelete msg.name;\ndelete msg.version;\ndelete msg.title;\ndelete msg.full;\ndelete msg.git;\ndelete msg.lang;\ndelete msg.menus;\ndelete msg.titles;\ndelete msg.options;\ndelete msg.force;\ndelete msg.api;\ndelete msg.result;\n\nconst account = global.get('account', 'default') || {};\nconst installations = global.get('installations', 'default') || {};\nconst otp = flow.get('otp', 'memoryOnly');\nconst status = account.status || '';\nconst known = typeof account.user === 'string' && account.user !== '';\nconst waiting = status === 'otp' && typeof otp === 'object' && otp !== null;\n\nconst hide = { 'payload': '', 'class': 'remove', 'enabled': false };\nconst show = { 'payload': '', 'class': '', 'enabled': true };\n\n// login form, not shown when connected\nlet form = { 'topic': '', 'class': '', 'enabled': true, 'payload': { 'user': known ? account.user : '', 'password': '' } };\nif (status === 'ok') {\n    form = { 'topic': '', 'class': 'remove', 'enabled': false, 'payload': { 'user': '', 'password': '' } };\n}\n\n// SMS validation\nlet select = { ...hide, 'options': [] };\nlet code = { 'topic': '', 'class': 'remove', 'enabled': false, 'payload': { 'code': '' } };\nif (waiting) {\n    select = { 'payload': otp.phone, 'class': '', 'enabled': true, 'options': [{ 'label': '', 'value': '' }] };\n    for (const phone of otp.phones) {\n        select.options.push({ 'label': phone.phone, 'value': phone.id });\n    }\n    code = { 'topic': '', 'class': '', 'enabled': true, 'payload': { 'code': '' } };\n}\n\n// account summary\nconst labels = {\n    'ok': 'Connecté',\n    'otp': 'Validation par SMS en attente',\n    'login': 'Connexion en cours',\n    'reauth': 'Session expirée, reconnectez-vous'\n};\n\nlet rows = [];\nif (known) {\n    rows.push({ 'lbl': 'Identifiant', 'val': account.user });\n    rows.push({ 'lbl': 'Session', 'val': labels[status] || 'Non connecté' });\n    for (const id in installations) {\n        rows.push({ 'lbl': 'Installation', 'val': installations[id].alias + ' (' + id + ')' });\n    }\n}\n\nreturn [\n    form,\n    select,\n    waiting ? show : hide,\n    code,\n    { 'payload': rows, 'class': rows.length > 0 ? '' : 'remove' },\n    known ? show : hide\n];",
+        "outputs": 6,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1618,
+        "wires": [
+            [
+                "abb6a20b54eed994"
+            ],
+            [
+                "0ffa1f0a52f14add"
+            ],
+            [
+                "05b93216ee7c6dfe"
+            ],
+            [
+                "a021ec62b0eaf07c"
+            ],
+            [
+                "f85975c84e18315a"
+            ],
+            [
+                "8868fae5b73bc00d"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "abb6a20b54eed994",
+        "type": "ui-form",
+        "z": "48135a54600713e8",
+        "name": "ui - account - form",
+        "group": "878b175954cece85",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Identifiant My Verisure",
+                "key": "user",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Mot de passe (jamais enregistré)",
+                "key": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "user": "",
+            "password": ""
+        },
+        "submit": "Se connecter",
+        "cancel": "",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 580,
+        "y": 1618,
+        "wires": [
+            [
+                "ca57a19d2d68b8d8"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "ca57a19d2d68b8d8",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "login",
+        "func": "// Check UI form and prepare login\n// output 1: login request / output 2: notification\n\nconst crypto = global.get('crypto');\nconst old = global.get('account', 'default') || {};\nconst p = msg.payload || {};\nconst user = String(p.user || '').trim();\nconst password = String(p.password || '');\n\nif (old.status === 'ok') {\n\n    return [null, { 'payload': 'Un compte est déjà connecté, déconnectez-le avant' }];\n}\n\nif (user === '' || password === '') {\n\n    return [null, { 'payload': 'Identifiant et mot de passe requis' }];\n}\n\n// One login at a time\nconst busy = flow.get('login_busy', 'memoryOnly') || 0;\nif (Date.now() - busy < 45000) {\n\n    return [null, { 'payload': 'Connexion déjà en cours, patientez' }];\n}\nflow.set('login_busy', Date.now(), 'memoryOnly');\nflow.set('otp', null, 'memoryOnly');\n\n// Keep device identifiers of a known user, Verisure remembers validated devices\nconst same = old.user === user && typeof old.device === 'string' && old.device !== '';\nconst device = same ? old.device : crypto.randomBytes(8).toString('hex');\n\nglobal.set('account', {\n    'user': user,\n    'device': device,\n    'uuid': same && old.uuid ? old.uuid : device,\n    'indigitall': same && old.indigitall ? old.indigitall : crypto.randomUUID(),\n    'loginTimestamp': 0,\n    'hash': '',\n    'refreshToken': '',\n    'exp': 0,\n    'status': 'login'\n}, 'default');\n\n// The password is only used for this request and never stored\nreturn [{ 'api': { 'operation': 'mkLoginToken', 'variables': { 'password': password } } }, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1618,
+        "wires": [
+            [
+                "4146057d2c130584"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "4146057d2c130584",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 960,
+        "y": 1618,
+        "wires": [
+            [
+                "d42b4e8fa1e4881a"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "d42b4e8fa1e4881a",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "result",
+        "func": "// Login response\n// output 1: device validation request (SMS) / output 2: installations request / output 3: notification / output 4: refresh UI\n\n// Read expiration of a token (ms), 5 minutes if unknown\nfunction expire(token) {\n    try {\n        const claims = JSON.parse(Buffer.from(String(token).split('.')[1], 'base64').toString());\n        if (typeof claims.exp === 'number') {\n\n            return claims.exp * 1000;\n        }\n    } catch (e) { }\n\n    return Date.now() + 300000;\n}\n\n// Save session tokens (refresh token changes at each renewal)\nfunction store(account, data) {\n    account.hash = data.hash;\n    if (typeof data.refreshToken === 'string' && data.refreshToken !== '') {\n        account.refreshToken = data.refreshToken;\n    }\n    account.exp = expire(data.hash);\n    account.loginTimestamp = Date.now();\n    account.status = 'ok';\n    global.set('account', account, 'default');\n}\n\nconst r = msg.result || {};\nconst data = (r.data || {}).xSLoginToken || {};\nconst account = global.get('account', 'default') || {};\n\nflow.set('login_busy', 0, 'memoryOnly');\n\nif (data.needDeviceAuthorization === true) {\n\n    return [{ 'api': { 'operation': 'mkValidateDevice' } }, null, null, null];\n}\n\nif (r.ok === true && typeof data.hash === 'string' && data.hash !== '') {\n    store(account, data);\n\n    return [null, { 'api': { 'operation': 'mkInstallationList' } }, null, null];\n}\n\naccount.status = '';\nglobal.set('account', account, 'default');\n\nlet text = 'Connexion refusée : ' + (r.error || data.msg || 'réponse inattendue') + ' (attention, plusieurs échecs bloquent le compte Verisure)';\nif (r.code === '60052') {\n    text = 'Compte Verisure bloqué : débloquez-le depuis l\\'application My Verisure';\n} else if (r.transient === true) {\n    text = 'Connexion impossible : ' + r.error;\n}\n\nreturn [null, null, { 'payload': text }, { 'payload': '' }];",
+        "outputs": 4,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 1618,
+        "wires": [
+            [
+                "cf3cd7f6e3e471d4"
+            ],
+            [
+                "a731c79480db2f26"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ],
+            [
+                "c70c2e01325dbe6e"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "0ffa1f0a52f14add",
+        "type": "ui-dropdown",
+        "z": "48135a54600713e8",
+        "group": "86efca01481b9732",
+        "name": "custom - otp - select",
+        "label": "Numéro de téléphone",
+        "tooltip": "",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 580,
+        "y": 1678,
+        "wires": [
+            [
+                "b16f7c4ebd263cf8"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "b16f7c4ebd263cf8",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "phone",
+        "func": "// Select the phone number receiving the code\n\nconst otp = flow.get('otp', 'memoryOnly');\n\nif (typeof otp === 'object' && otp !== null) {\n    otp.phone = msg.payload === '' || msg.payload === undefined || msg.payload === null ? '' : Number(msg.payload);\n    flow.set('otp', otp, 'memoryOnly');\n}\n\nreturn;",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1678,
+        "wires": [],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "05b93216ee7c6dfe",
+        "type": "ui-button",
+        "z": "48135a54600713e8",
+        "group": "86efca01481b9732",
+        "name": "custom - otp - send",
+        "label": "Recevoir le code par SMS",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "message-processing",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 580,
+        "y": 1738,
+        "wires": [
+            [
+                "4b9499d505d118a0"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "4b9499d505d118a0",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "send",
+        "func": "// Ask Verisure to send a code by SMS\n// output 1: SMS request / output 2: notification\n\nconst otp = flow.get('otp', 'memoryOnly');\n\nif (typeof otp !== 'object' || otp === null || otp.hash === '') {\n\n    return [null, { 'payload': 'Aucune validation en attente, reconnectez-vous' }];\n}\n\nif (otp.phone === '' || isNaN(otp.phone)) {\n\n    return [null, { 'payload': 'Sélectionnez un numéro de téléphone' }];\n}\n\n// One SMS by minute\nif (Date.now() - (otp.asked || 0) < 60000) {\n\n    return [null, { 'payload': 'SMS déjà demandé, patientez une minute' }];\n}\notp.asked = Date.now();\nflow.set('otp', otp, 'memoryOnly');\n\nreturn [{ 'api': { 'operation': 'mkSendOTP', 'variables': { 'recordId': otp.phone, 'otpHash': otp.hash } } }, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1738,
+        "wires": [
+            [
+                "231e2bbb9c3b13b3"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "231e2bbb9c3b13b3",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 960,
+        "y": 1738,
+        "wires": [
+            [
+                "c3139c9d9fb3605c"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "c3139c9d9fb3605c",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "sent",
+        "func": "// SMS request response\n\nconst r = msg.result || {};\nconst data = (r.data || {}).xSSendOtp || {};\nconst otp = flow.get('otp', 'memoryOnly');\n\nif (r.ok === true && data.res === 'OK') {\n    if (typeof otp === 'object' && otp !== null) {\n        otp.sent = true;\n        flow.set('otp', otp, 'memoryOnly');\n    }\n\n    return { 'payload': 'SMS envoyé, saisissez le code reçu' };\n}\n\nif (typeof otp === 'object' && otp !== null) {\n    otp.asked = 0;\n    flow.set('otp', otp, 'memoryOnly');\n}\n\nreturn { 'payload': 'Envoi du SMS impossible : ' + (r.error || data.msg || 'réponse inattendue') };",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 1738,
+        "wires": [
+            [
+                "d2d52ac80369e7b7"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "a021ec62b0eaf07c",
+        "type": "ui-form",
+        "z": "48135a54600713e8",
+        "name": "ui - otp - form",
+        "group": "86efca01481b9732",
+        "label": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Code reçu par SMS",
+                "key": "code",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "code": ""
+        },
+        "submit": "Valider",
+        "cancel": "",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 580,
+        "y": 1798,
+        "wires": [
+            [
+                "d5cd52ab4ed14eb4"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "d5cd52ab4ed14eb4",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "code",
+        "func": "// Check the code received by SMS\n// output 1: device validation request / output 2: notification\n\nconst otp = flow.get('otp', 'memoryOnly');\nconst code = String((msg.payload || {}).code || '').trim();\n\nif (typeof otp !== 'object' || otp === null || otp.hash === '') {\n\n    return [null, { 'payload': 'Aucune validation en attente, reconnectez-vous' }];\n}\n\nif (!/^[0-9A-Za-z]{3,12}$/.test(code)) {\n\n    return [null, { 'payload': 'Code invalide' }];\n}\n\nreturn [{ 'step': 'code', 'api': { 'operation': 'mkValidateDevice', 'otp': { 'hash': otp.hash, 'code': code } } }, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1798,
+        "wires": [
+            [
+                "cf3cd7f6e3e471d4"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "cf3cd7f6e3e471d4",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 1340,
+        "y": 1678,
+        "wires": [
+            [
+                "25cb78396b976f1c"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "25cb78396b976f1c",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "validate",
+        "func": "// Device validation response\n// output 1: installations request / output 2: notification / output 3: refresh UI\n\n// Read expiration of a token (ms), 5 minutes if unknown\nfunction expire(token) {\n    try {\n        const claims = JSON.parse(Buffer.from(String(token).split('.')[1], 'base64').toString());\n        if (typeof claims.exp === 'number') {\n\n            return claims.exp * 1000;\n        }\n    } catch (e) { }\n\n    return Date.now() + 300000;\n}\n\n// Save session tokens (refresh token changes at each renewal)\nfunction store(account, data) {\n    account.hash = data.hash;\n    if (typeof data.refreshToken === 'string' && data.refreshToken !== '') {\n        account.refreshToken = data.refreshToken;\n    }\n    account.exp = expire(data.hash);\n    account.loginTimestamp = Date.now();\n    account.status = 'ok';\n    global.set('account', account, 'default');\n}\n\nconst r = msg.result || {};\nconst data = (r.data || {}).xSValidateDevice || {};\nconst detail = r.detail || {};\nconst account = global.get('account', 'default') || {};\n\nif (r.ok === true && typeof data.hash === 'string' && data.hash !== '') {\n    flow.set('otp', null, 'memoryOnly');\n    store(account, data);\n\n    return [{ 'api': { 'operation': 'mkInstallationList' } }, null, null];\n}\n\n// Verisure asks for a code sent by SMS\nif (typeof detail['auth-otp-hash'] === 'string' || Array.isArray(detail['auth-phones'])) {\n    let phones = [];\n    for (const item of (detail['auth-phones'] || [])) {\n        if (typeof item === 'object' && item !== null && item.id !== undefined) {\n            phones.push({ 'id': Number(item.id), 'phone': String(item.phone || item.id) });\n        }\n    }\n\n    flow.set('otp', {\n        'hash': detail['auth-otp-hash'] || '',\n        'phones': phones,\n        'phone': phones.length === 1 ? phones[0].id : '',\n        'sent': false\n    }, 'memoryOnly');\n\n    account.status = 'otp';\n    global.set('account', account, 'default');\n\n    return [null, {\n        'payload': msg.step === 'code' ? 'Code refusé : demandez un nouveau SMS' : 'Validation par SMS requise'\n    }, { 'payload': '' }];\n}\n\naccount.status = '';\nglobal.set('account', account, 'default');\nflow.set('otp', null, 'memoryOnly');\n\nreturn [null, { 'payload': 'Validation impossible : ' + (r.error || 'réponse inattendue') }, { 'payload': '' }];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 1678,
+        "wires": [
+            [
+                "a731c79480db2f26"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ],
+            [
+                "c70c2e01325dbe6e"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "8e7c99f2d0685f48",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "name": "custom - installations",
+        "links": [
+            "1c66cc723241e872"
+        ],
+        "x": 1530,
+        "y": 1618,
+        "wires": [
+            [
+                "a731c79480db2f26"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "a731c79480db2f26",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 1720,
+        "y": 1618,
+        "wires": [
+            [
+                "a45cbe3c3189ce5b"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "a45cbe3c3189ce5b",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "installations",
+        "func": "// Installations list response\n// output 1: refresh UI and read alarm / output 2: notification\n\nconst r = msg.result || {};\nconst list = ((r.data || {}).xSInstallations || {}).installations;\n\nflow.set('busy', 0, 'memoryOnly');\n\nif (r.ok !== true || !Array.isArray(list)) {\n\n    return [{ 'payload': '' }, { 'payload': 'Lecture des installations impossible : ' + (r.error || 'réponse inattendue') }];\n}\n\nlet installations = {};\nfor (const item of list) {\n    if (typeof item !== 'object' || item === null || item.numinst === undefined || item.numinst === null) {\n\n        continue;\n    }\n\n    const id = String(item.numinst);\n    installations[id] = {\n        'numinst': id,\n        'alias': String(item.alias || id),\n        'panel': String(item.panel || ''),\n        'type': String(item.type || '')\n    };\n}\n\nglobal.set('installations', installations, 'default');\nflow.set('last_poll', 0, 'memoryOnly');\n\nreturn [{ 'payload': '', 'force': true }, { 'payload': 'Connecté à Verisure : ' + Object.keys(installations).length + ' installation(s)' }];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1910,
+        "y": 1618,
+        "wires": [
+            [
+                "f8e2855e8e00b1a9"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "f85975c84e18315a",
+        "type": "ui-table",
+        "z": "48135a54600713e8",
+        "group": "ef5bde6580675b69",
+        "name": "custom - account - table",
+        "label": "",
+        "order": 1,
+        "width": "3",
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "",
+                "key": "lbl",
+                "keyType": "key",
+                "type": "text",
+                "width": "40%",
+                "align": "end"
+            },
+            {
+                "title": "",
+                "key": "val",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 580,
+        "y": 1858,
+        "wires": [
+            []
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "8868fae5b73bc00d",
+        "type": "ui-button",
+        "z": "48135a54600713e8",
+        "group": "ef5bde6580675b69",
+        "name": "custom - account - logout",
+        "label": "Déconnecter",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "logout",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 580,
+        "y": 1918,
+        "wires": [
+            [
+                "4d54dec55e8adcc7"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "4d54dec55e8adcc7",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "logout",
+        "func": "// Disconnect account\n// output 1: logout request / output 2: no session, clean only\n\nconst account = global.get('account', 'default') || {};\n\nif (typeof account.user !== 'string' || account.user === '') {\n\n    return;\n}\n\nif (typeof account.hash === 'string' && account.hash !== '') {\n\n    return [{ 'api': { 'operation': 'Logout' } }, null];\n}\n\nreturn [null, { 'payload': '' }];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1918,
+        "wires": [
+            [
+                "074747fd26ce1e6b"
+            ],
+            [
+                "32363a875cfc315c"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "074747fd26ce1e6b",
+        "type": "link call",
+        "z": "48135a54600713e8",
+        "name": "",
+        "links": [
+            "4ca65d585c0cf39f"
+        ],
+        "linkType": "static",
+        "timeout": "90",
+        "x": 960,
+        "y": 1918,
+        "wires": [
+            [
+                "32363a875cfc315c"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "32363a875cfc315c",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "forget",
+        "func": "// Forget account, installations and their MQTT topics\n// output 1: refresh UI / output 2: notification / output 3: MQTT cleanup\n\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst installations = global.get('installations', 'default') || {};\nconst topic = global.get('mqtt.topic', 'default') || '';\nconst discovery = global.get('mqtt.homeassistant', 'default') || '';\nconst source = 'verisure';\nconst control = (describe.control || {}).panel || {};\n\nfor (const id in installations) {\n    // remove retained messages\n    for (const k in control) {\n        const key = control[k][1];\n        if (topic !== '') {\n            node.send([null, null, { 'topic': [topic, 'discovery', source, id, key].join('/'), 'payload': '', 'qos': 0, 'retain': true }]);\n            node.send([null, null, { 'topic': [topic, 'get', source, id, key].join('/'), 'payload': '', 'qos': 0, 'retain': true }]);\n        }\n        if (discovery !== '') {\n            node.send([null, null, { 'topic': [discovery, control[k][7], source, id + '_' + key, 'config'].join('/'), 'payload': '', 'qos': 0, 'retain': true }]);\n        }\n    }\n    if (topic !== '') {\n        node.send([null, null, { 'topic': [topic, 'discovery', source, id].join('/'), 'payload': '', 'qos': 0, 'retain': true }]);\n    }\n}\n\nglobal.set('account', {}, 'default');\nglobal.set('installations', {}, 'default');\nglobal.set('devices', {}, 'memoryOnly');\nflow.set('caps', {}, 'memoryOnly');\nflow.set('otp', null, 'memoryOnly');\nflow.set('last', {}, 'memoryOnly');\nflow.set('busy', 0, 'memoryOnly');\nflow.set('login_busy', 0, 'memoryOnly');\n\nreturn [{ 'payload': '' }, { 'payload': 'Compte Verisure déconnecté' }, null];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 1918,
+        "wires": [
+            [
+                "f8e2855e8e00b1a9"
+            ],
+            [
+                "d2d52ac80369e7b7"
+            ],
+            [
+                "98583b238bfb617c"
+            ]
+        ],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "f8e2855e8e00b1a9",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - account - done",
+        "mode": "link",
+        "links": [
+            "077fb23eafda84ad",
+            "42ae67c19e3e3682",
+            "b110f2810071296c"
+        ],
+        "x": 2100,
+        "y": 1618,
+        "wires": [],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "c70c2e01325dbe6e",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - account - refresh",
+        "mode": "link",
+        "links": [
+            "077fb23eafda84ad"
+        ],
+        "x": 2100,
+        "y": 1678,
+        "wires": [],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "d2d52ac80369e7b7",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - account - notify",
+        "mode": "link",
+        "links": [
+            "fc147ee782462bbe"
+        ],
+        "x": 2100,
+        "y": 1738,
+        "wires": [],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "98583b238bfb617c",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - account - mqtt",
+        "mode": "link",
+        "links": [
+            "d5bdaec879cbd196"
+        ],
+        "x": 2100,
+        "y": 1918,
+        "wires": [],
+        "g": "70afa9e166588659"
+    },
+    {
+        "id": "a0afb30d023e2ea5",
+        "type": "comment",
+        "z": "48135a54600713e8",
+        "name": "Sources",
+        "info": "API cloud Verisure France (celle de l'application My Verisure), il n'existe pas d'accès local à la centrale.\nProtocole repris du projet https://github.com/guerrerotook/securitas-direct-new-api\n\nLe mot de passe n'est jamais enregistré : seul le jeton de session est conservé.\nVerisure bloque les lectures trop fréquentes : ne pas descendre sous 60 secondes.",
+        "x": 900,
+        "y": 100,
+        "wires": []
+    }
+]
