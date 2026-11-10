@@ -58,6 +58,8 @@ Dans la page **Compte** :
 
 Les installations du compte apparaissent ensuite dans la page **Alarme**.
 
+En cas d'échec, la ligne **Dernière erreur** de la page **Compte** donne la réponse exacte de Verisure. Si Verisure refuse la connexion, ne multipliez pas les essais : vérifiez d'abord que l'application My Verisure se connecte toujours.
+
 Si Verisure ferme la session (changement de mot de passe, déconnexion des appareils depuis l'application...), la page **Alarme** l'indique et il faut se reconnecter depuis la page **Compte**. Le projet ne retente jamais seul une connexion.
 
 Le bouton **Déconnecter** ferme la session et efface le compte, ses installations et leurs topics MQTT.
