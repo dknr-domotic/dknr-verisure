@@ -85,7 +85,7 @@ Entités :
 * `state` : `D` désarmée, `P` partielle jour, `Q` partielle nuit, `T` totale, `E` périmétrique, `B` partielle jour et périmétrique, `C` partielle nuit et périmétrique, `A` totale et périmétrique, `X` annexe, `R` partielle jour et annexe, `S` partielle nuit et annexe, `O` totale et annexe.
 * `armed` : `1` si l'alarme est armée, quel que soit le mode, sinon `0`.
 * `wifi` : `1` si la centrale est connectée en wifi, sinon `0`.
-* `timestamp` : date du dernier changement connu de Verisure.
+* `timestamp` : date de la dernière mise à jour connue de Verisure, au format ISO 8601 (UTC).
 
 Seules les entités réellement fournies par l'installation sont publiées.
 
