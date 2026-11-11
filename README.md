@@ -104,6 +104,7 @@ Avec le topic `dknr` par défaut, l'identifiant d'un appareil est le numéro de 
 
 Entités :
 
+* `fault` : `1` en défaut, `0` quand tout va bien. Le défaut est levé quand le compte n'est pas connecté (session expirée, validation par SMS en attente) ou quand aucune lecture valide de l'alarme n'a abouti depuis 3 intervalles de lecture (10 minutes au minimum), par exemple sans internet, Verisure en panne ou accès suspendu par Verisure. Elle est déclarée en discovery DKNR (type binaire) et Home Assistant (binary_sensor de type « problem »), pour servir d'alerte dans votre domotique.
 * `mode` : mode de l'alarme intérieure, en lecture et en commande : `D` désarmée, `P` partielle jour, `Q` partielle nuit, `T` totale.
 * `state` : `D` désarmée, `P` partielle jour, `Q` partielle nuit, `T` totale, `E` périmétrique, `B` partielle jour et périmétrique, `C` partielle nuit et périmétrique, `A` totale et périmétrique, `X` annexe, `R` partielle jour et annexe, `S` partielle nuit et annexe, `O` totale et annexe.
 * `armed` : `1` si l'alarme est armée, quel que soit le mode, sinon `0`.

@@ -293,6 +293,27 @@
         "h": 282
     },
     {
+        "id": "ee83b2844b6ac694",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - fault",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "af7df3ec1893255d",
+            "6f7ac099e4c48d3e",
+            "b17c64c3784432d6",
+            "58f0ec240466c319"
+        ],
+        "x": 94,
+        "y": 849,
+        "w": 606,
+        "h": 162
+    },
+    {
         "id": "c18ec2d737314ebd",
         "type": "group",
         "z": "48135a54600713e8",
@@ -310,7 +331,7 @@
             "98217d9b78db1421"
         ],
         "x": 94,
-        "y": 849,
+        "y": 1031,
         "w": 606,
         "h": 162
     },
@@ -341,7 +362,7 @@
             "8a9bda1cd11a5e5f"
         ],
         "x": 94,
-        "y": 1031,
+        "y": 1213,
         "w": 1936,
         "h": 222
     },
@@ -373,7 +394,7 @@
             "7894d03b37617bc2"
         ],
         "x": 94,
-        "y": 1273,
+        "y": 1455,
         "w": 1176,
         "h": 402
     },
@@ -393,7 +414,7 @@
             "eed88956dce2fb67"
         ],
         "x": 94,
-        "y": 1695,
+        "y": 1877,
         "w": 606,
         "h": 102
     },
@@ -416,7 +437,7 @@
             "729d251fc4615f70"
         ],
         "x": 94,
-        "y": 1817,
+        "y": 1999,
         "w": 796,
         "h": 162
     },
@@ -455,7 +476,7 @@
             "d5e2ed00e3b4d9ea"
         ],
         "x": 94,
-        "y": 1999,
+        "y": 2181,
         "w": 1556,
         "h": 462
     },
@@ -501,7 +522,7 @@
             "6518f0615867058c"
         ],
         "x": 94,
-        "y": 2481,
+        "y": 2663,
         "w": 2126,
         "h": 462
     },
@@ -1811,7 +1832,7 @@
         "type": "function",
         "z": "48135a54600713e8",
         "name": "custom - describe",
-        "func": "msg.payload.project = 'dknr-verisure';\n\nmsg.payload.hmi = {\n    'detail': 'Alarme',\n    'add': 'Compte',\n    'history': 'Journal',\n    'mqtt': 'Configurer'\n};\n\n// Verisure France cloud API (same API as My Verisure application)\nmsg.payload.api = {\n    'url': 'https://customers.securitasdirect.fr/owa-api/graphql',\n    'country': 'FR',\n    'lang': 'fr',\n    'callby': 'OWA_10',\n    'prefix': 'OWA_______________',\n    'agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41',\n    'device': {\n        'brand': 'samsung',\n        'name': 'SM-S901U',\n        'os': '12',\n        'version': '10.102.0'\n    },\n    // GraphQL queries by operation name\n    'query': {\n        'mkLoginToken': 'mutation mkLoginToken($user: String!, $password: String!, $id: String!, $country: String!, $lang: String!, $callby: String!, $idDevice: String!, $idDeviceIndigitall: String!, $deviceType: String!, $deviceVersion: String!, $deviceResolution: String!, $deviceName: String!, $deviceBrand: String!, $deviceOsVersion: String!, $uuid: String!) { xSLoginToken(user: $user, password: $password, country: $country, lang: $lang, callby: $callby, id: $id, idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, deviceType: $deviceType, deviceVersion: $deviceVersion, deviceResolution: $deviceResolution, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, uuid: $uuid) { __typename res msg hash refreshToken legals changePassword needDeviceAuthorization mainUser } }',\n        'RefreshLogin': 'mutation RefreshLogin($refreshToken: String!, $id: String!, $country: String!, $lang: String!, $callby: String!, $idDevice: String!, $idDeviceIndigitall: String!, $deviceType: String!, $deviceVersion: String!, $deviceResolution: String!, $deviceName: String!, $deviceBrand: String!, $deviceOsVersion: String!, $uuid: String!) {\\n  xSRefreshLogin(refreshToken: $refreshToken, id: $id, country: $country, lang: $lang, callby: $callby, idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, deviceType: $deviceType, deviceVersion: $deviceVersion, deviceResolution: $deviceResolution, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, uuid: $uuid) {\\n    __typename\\n    res\\n    msg\\n    hash\\n    refreshToken\\n    legals\\n    changePassword\\n    needDeviceAuthorization\\n    mainUser\\n  }\\n}',\n        'mkValidateDevice': 'mutation mkValidateDevice($idDevice: String, $idDeviceIndigitall: String, $uuid: String, $deviceName: String, $deviceBrand: String, $deviceOsVersion: String, $deviceVersion: String) {\\n  xSValidateDevice(idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, uuid: $uuid, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, deviceVersion: $deviceVersion) {\\n    res\\n    msg\\n    hash\\n    refreshToken\\n    legals\\n  }\\n}\\n',\n        'mkSendOTP': 'mutation mkSendOTP($recordId: Int!, $otpHash: String!) {\\n  xSSendOtp(recordId: $recordId, otpHash: $otpHash) {\\n    res\\n    msg\\n  }\\n}\\n',\n        'Logout': 'mutation Logout {\\n  xSLogout\\n}\\n',\n        'mkInstallationList': 'query mkInstallationList {\\n  xSInstallations {\\n    installations {\\n      numinst\\n      alias\\n      panel\\n      type\\n    }\\n  }\\n}\\n',\n        'Srv': 'query Srv($numinst: String!, $uuid: String) {\\n  xSSrv(numinst: $numinst, uuid: $uuid) {\\n    res\\n    msg\\n    language\\n    installation {\\n      numinst\\n      role\\n      alias\\n      status\\n      panel\\n      sim\\n      instIbs\\n      services {\\n        idService\\n        active\\n        visible\\n        bde\\n        isPremium\\n        codOper\\n        request\\n        minWrapperVersion\\n        unprotectActive\\n        unprotectDeviceStatus\\n        instDate\\n        genericConfig {\\n          total\\n          attributes {\\n            key\\n            value\\n          }\\n        }\\n        attributes {\\n          attributes {\\n            name\\n            value\\n            active\\n          }\\n        }\\n      }\\n      configRepoUser {\\n        alarmPartitions {\\n          id\\n          enterStates\\n          leaveStates\\n        }\\n      }\\n      capabilities\\n    }\\n  }\\n}',\n        'xSArmPanel': 'mutation xSArmPanel($numinst: String!, $request: ArmCodeRequest!, $panel: String!, $currentStatus: String, $suid: String, $forceArmingRemoteId: String, $armAndLock: Boolean) {\\n  xSArmPanel(numinst: $numinst, request: $request, panel: $panel, currentStatus: $currentStatus, suid: $suid, forceArmingRemoteId: $forceArmingRemoteId, armAndLock: $armAndLock) {\\n    res\\n    msg\\n    referenceId\\n  }\\n}\\n',\n        'ArmStatus': 'query ArmStatus($numinst: String!, $request: ArmCodeRequest, $panel: String!, $referenceId: String!, $counter: Int!, $forceArmingRemoteId: String, $armAndLock: Boolean) {\\n  xSArmStatus(numinst: $numinst, panel: $panel, referenceId: $referenceId, counter: $counter, request: $request, forceArmingRemoteId: $forceArmingRemoteId, armAndLock: $armAndLock) {\\n    res\\n    msg\\n    status\\n    protomResponse\\n    protomResponseDate\\n    numinst\\n    requestId\\n    error {\\n      code\\n      type\\n      allowForcing\\n      exceptionsNumber\\n      referenceId\\n      suid\\n    }\\n  }\\n}\\n',\n        'xSDisarmPanel': 'mutation xSDisarmPanel($numinst: String!, $request: DisarmCodeRequest!, $panel: String!) {\\n  xSDisarmPanel(numinst: $numinst, request: $request, panel: $panel) {\\n    res\\n    msg\\n    referenceId\\n  }\\n}\\n',\n        'DisarmStatus': 'query DisarmStatus($numinst: String!, $panel: String!, $referenceId: String!, $counter: Int!, $request: DisarmCodeRequest) {\\n  xSDisarmStatus(numinst: $numinst, panel: $panel, referenceId: $referenceId, counter: $counter, request: $request) {\\n    res\\n    msg\\n    status\\n    protomResponse\\n    protomResponseDate\\n    numinst\\n    requestId\\n    error {\\n      code\\n      type\\n      allowForcing\\n      exceptionsNumber\\n      referenceId\\n    }\\n  }\\n}\\n',\n        'xSGetExceptions': 'query xSGetExceptions($numinst: String!, $panel: String!, $referenceId: String!, $counter: Int!, $suid: String) {\\n  xSGetExceptions(numinst: $numinst, panel: $panel, referenceId: $referenceId, counter: $counter, suid: $suid) {\\n    res\\n    msg\\n    exceptions {\\n      status\\n      deviceType\\n      alias\\n    }\\n  }\\n}\\n',\n        'ActV2Timeline': 'query ActV2Timeline($numinst: String!, $panel: String, $numRows: Int, $offset: Int, $timeFilter: TimeFilter!) {\\n  xSActV2(numinst: $numinst, input: {\\n    timeFilter: $timeFilter, numRows: $numRows, offset: $offset,\\n    panel: $panel, hasLocksmithRequested: false, singleActivityFilter: [0]\\n  }) {\\n    reg {\\n      alias type device source idSignal schedulerType myVerisureUser\\n      time img incidenceId signalType interface deviceName keyname\\n      tagId userAuth\\n      exceptions { status deviceType alias }\\n    }\\n  }\\n}\\n',\n        'Status': 'query Status($numinst: String!) {\\n  xSStatus(numinst: $numinst) {\\n    status\\n    timestampUpdate\\n    wifiConnected\\n    exceptions {\\n      status\\n      deviceType\\n      alias\\n    }\\n  }\\n}'\n    }\n};\n\nmsg.payload.enum = {\n    // Verisure panel status code\n    'state': {\n        'D': 'Désarmée',\n        'P': 'Partielle jour',\n        'Q': 'Partielle nuit',\n        'T': 'Totale',\n        'E': 'Périmétrique',\n        'B': 'Partielle jour et périmétrique',\n        'C': 'Partielle nuit et périmétrique',\n        'A': 'Totale et périmétrique',\n        'X': 'Annexe',\n        'R': 'Partielle jour et annexe',\n        'S': 'Partielle nuit et annexe',\n        'O': 'Totale et annexe'\n    },\n    // Modes that can be asked (interior alarm), same keys as state\n    'mode': {\n        'D': 'Désarmée',\n        'P': 'Partielle jour',\n        'Q': 'Partielle nuit',\n        'T': 'Totale'\n    },\n    // Verisure command of each mode\n    'command': {\n        'D': 'DARM1',\n        'P': 'ARMDAY1',\n        'Q': 'ARMNIGHT1',\n        'T': 'ARM1'\n    },\n    // Activity event type (category of Verisure numeric codes)\n    'event': {\n        'armed': 'Armement',\n        'armed_with_exceptions': 'Armement avec anomalie',\n        'arming_failed': 'Armement refusé',\n        'disarmed': 'Désarmement',\n        'alarm': 'Alarme déclenchée',\n        'alarm_resolved': 'Alarme terminée',\n        'tampering': 'Autoprotection',\n        'sabotage': 'Sabotage',\n        'image_request': 'Demande de photo',\n        'power_cut': 'Coupure de courant',\n        'power_restored': 'Retour du courant',\n        'status_check': 'Vérification de l\\'état',\n        'communication_failed': 'Erreur de communication',\n        'communication_restored': 'Communication rétablie',\n        'door_opened': 'Porte ouverte',\n        'door_closed': 'Porte fermée',\n        'routine_executed': 'Routine exécutée',\n        'tag_or_remote_activated': 'Badge ou télécommande activé',\n        'high_temperature': 'Température élevée',\n        'unknown': 'Autre'\n    },\n    // Verisure numeric event code to event type, codes seen on real panels (securitas-direct-new-api)\n    'event_code': {\n        '2': 'armed', '31': 'armed', '37': 'armed', '40': 'armed', '46': 'armed', '701': 'armed', '702': 'armed', '721': 'armed',\n        '801': 'armed', '802': 'armed', '821': 'armed', '823': 'armed', '824': 'armed',\n        '850': 'armed_with_exceptions',\n        '5802': 'arming_failed', '5823': 'arming_failed', '5824': 'arming_failed', '531': 'arming_failed', '537': 'arming_failed', '540': 'arming_failed', '546': 'arming_failed',\n        '1': 'disarmed', '32': 'disarmed', '107': 'disarmed', '700': 'disarmed', '720': 'disarmed', '800': 'disarmed', '820': 'disarmed', '822': 'disarmed',\n        '13': 'alarm', '14': 'alarm',\n        '24': 'tampering', '241': 'sabotage', '331': 'alarm_resolved',\n        '16': 'image_request', '25': 'power_cut', '26': 'power_restored', '27': 'status_check',\n        '501': 'communication_failed', '502': 'communication_failed', '3121': 'communication_restored',\n        '324': 'door_opened', '325': 'door_closed', '70': 'routine_executed', '41': 'tag_or_remote_activated', '56': 'high_temperature'\n    },\n    // Verisure panel errors\n    'error': {\n        'mg_open_zone': 'zone ouverte',\n        'no_response_to_request': 'pas de réponse de la centrale',\n        'status_not_found': 'état introuvable'\n    }\n};\n\n// Translation of options labels (french is the reference language)\nmsg.payload.translate = {\n    'en': {\n        'Désarmée': 'Disarmed',\n        'Partielle jour': 'Partial day',\n        'Partielle nuit': 'Partial night',\n        'Totale': 'Total',\n        'Périmétrique': 'Perimeter',\n        'Partielle jour et périmétrique': 'Partial day and perimeter',\n        'Partielle nuit et périmétrique': 'Partial night and perimeter',\n        'Totale et périmétrique': 'Total and perimeter',\n        'Annexe': 'Annex',\n        'Partielle jour et annexe': 'Partial day and annex',\n        'Partielle nuit et annexe': 'Partial night and annex',\n        'Totale et annexe': 'Total and annex',\n        'Armement': 'Armed',\n        'Armement avec anomalie': 'Armed with exceptions',\n        'Armement refusé': 'Arming failed',\n        'Désarmement': 'Disarmed',\n        'Alarme déclenchée': 'Alarm',\n        'Alarme terminée': 'Alarm resolved',\n        'Autoprotection': 'Tampering',\n        'Sabotage': 'Sabotage',\n        'Demande de photo': 'Image request',\n        'Coupure de courant': 'Power cut',\n        'Retour du courant': 'Power restored',\n        'Vérification de l\\'état': 'Status check',\n        'Erreur de communication': 'Communication failed',\n        'Communication rétablie': 'Communication restored',\n        'Porte ouverte': 'Door opened',\n        'Porte fermée': 'Door closed',\n        'Routine exécutée': 'Routine executed',\n        'Badge ou télécommande activé': 'Tag or remote activated',\n        'Température élevée': 'High temperature',\n        'Autre': 'Other'\n    }\n};\n\nconst e = msg.payload.enum;\n\n// control entry: [name, entity, group, type, unit, default value, options: {key: name}, ha type, ha state_class, ha device_class, device field]\nmsg.payload.control = {\n    'panel': {\n        'mode': ['Mode', 'mode', 'command', 'enum', '', '', e.mode, 'select', '', '', 'status'],\n        'state': ['Etat', 'state', 'sensor', 'enum', '', 'D', e.state, 'sensor', '', 'enum', 'status'],\n        'armed': ['Alarme armée', 'armed', 'sensor', 'binary', '', false, {}, 'binary_sensor', '', '', 'armed'],\n        'wifi': ['Wifi connecté', 'wifi', 'sensor', 'binary', '', false, {}, 'binary_sensor', '', 'connectivity', 'wifi'],\n        'event': ['Dernier événement', 'event', 'sensor', 'text', '', '', {}, 'sensor', '', '', 'event'],\n        'event_type': ['Type du dernier événement', 'event_type', 'sensor', 'enum', '', 'unknown', e.event, 'sensor', '', 'enum', 'event_type'],\n        'event_by': ['Auteur du dernier événement', 'event_by', 'sensor', 'text', '', '', {}, 'sensor', '', '', 'event_by'],\n        'event_time': ['Date du dernier événement', 'event_time', 'sensor', 'text', '', '', {}, 'sensor', '', 'timestamp', 'event_time'],\n        'timestamp': ['Mise à jour', 'timestamp', 'sensor', 'text', '', '', {}, 'sensor', '', 'timestamp', 'timestamp']\n    }\n};\n\nreturn msg;",
+        "func": "msg.payload.project = 'dknr-verisure';\n\nmsg.payload.hmi = {\n    'detail': 'Alarme',\n    'add': 'Compte',\n    'history': 'Journal',\n    'mqtt': 'Configurer'\n};\n\n// Verisure France cloud API (same API as My Verisure application)\nmsg.payload.api = {\n    'url': 'https://customers.securitasdirect.fr/owa-api/graphql',\n    'country': 'FR',\n    'lang': 'fr',\n    'callby': 'OWA_10',\n    'prefix': 'OWA_______________',\n    'agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41',\n    'device': {\n        'brand': 'samsung',\n        'name': 'SM-S901U',\n        'os': '12',\n        'version': '10.102.0'\n    },\n    // GraphQL queries by operation name\n    'query': {\n        'mkLoginToken': 'mutation mkLoginToken($user: String!, $password: String!, $id: String!, $country: String!, $lang: String!, $callby: String!, $idDevice: String!, $idDeviceIndigitall: String!, $deviceType: String!, $deviceVersion: String!, $deviceResolution: String!, $deviceName: String!, $deviceBrand: String!, $deviceOsVersion: String!, $uuid: String!) { xSLoginToken(user: $user, password: $password, country: $country, lang: $lang, callby: $callby, id: $id, idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, deviceType: $deviceType, deviceVersion: $deviceVersion, deviceResolution: $deviceResolution, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, uuid: $uuid) { __typename res msg hash refreshToken legals changePassword needDeviceAuthorization mainUser } }',\n        'RefreshLogin': 'mutation RefreshLogin($refreshToken: String!, $id: String!, $country: String!, $lang: String!, $callby: String!, $idDevice: String!, $idDeviceIndigitall: String!, $deviceType: String!, $deviceVersion: String!, $deviceResolution: String!, $deviceName: String!, $deviceBrand: String!, $deviceOsVersion: String!, $uuid: String!) {\\n  xSRefreshLogin(refreshToken: $refreshToken, id: $id, country: $country, lang: $lang, callby: $callby, idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, deviceType: $deviceType, deviceVersion: $deviceVersion, deviceResolution: $deviceResolution, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, uuid: $uuid) {\\n    __typename\\n    res\\n    msg\\n    hash\\n    refreshToken\\n    legals\\n    changePassword\\n    needDeviceAuthorization\\n    mainUser\\n  }\\n}',\n        'mkValidateDevice': 'mutation mkValidateDevice($idDevice: String, $idDeviceIndigitall: String, $uuid: String, $deviceName: String, $deviceBrand: String, $deviceOsVersion: String, $deviceVersion: String) {\\n  xSValidateDevice(idDevice: $idDevice, idDeviceIndigitall: $idDeviceIndigitall, uuid: $uuid, deviceName: $deviceName, deviceBrand: $deviceBrand, deviceOsVersion: $deviceOsVersion, deviceVersion: $deviceVersion) {\\n    res\\n    msg\\n    hash\\n    refreshToken\\n    legals\\n  }\\n}\\n',\n        'mkSendOTP': 'mutation mkSendOTP($recordId: Int!, $otpHash: String!) {\\n  xSSendOtp(recordId: $recordId, otpHash: $otpHash) {\\n    res\\n    msg\\n  }\\n}\\n',\n        'Logout': 'mutation Logout {\\n  xSLogout\\n}\\n',\n        'mkInstallationList': 'query mkInstallationList {\\n  xSInstallations {\\n    installations {\\n      numinst\\n      alias\\n      panel\\n      type\\n    }\\n  }\\n}\\n',\n        'Srv': 'query Srv($numinst: String!, $uuid: String) {\\n  xSSrv(numinst: $numinst, uuid: $uuid) {\\n    res\\n    msg\\n    language\\n    installation {\\n      numinst\\n      role\\n      alias\\n      status\\n      panel\\n      sim\\n      instIbs\\n      services {\\n        idService\\n        active\\n        visible\\n        bde\\n        isPremium\\n        codOper\\n        request\\n        minWrapperVersion\\n        unprotectActive\\n        unprotectDeviceStatus\\n        instDate\\n        genericConfig {\\n          total\\n          attributes {\\n            key\\n            value\\n          }\\n        }\\n        attributes {\\n          attributes {\\n            name\\n            value\\n            active\\n          }\\n        }\\n      }\\n      configRepoUser {\\n        alarmPartitions {\\n          id\\n          enterStates\\n          leaveStates\\n        }\\n      }\\n      capabilities\\n    }\\n  }\\n}',\n        'xSArmPanel': 'mutation xSArmPanel($numinst: String!, $request: ArmCodeRequest!, $panel: String!, $currentStatus: String, $suid: String, $forceArmingRemoteId: String, $armAndLock: Boolean) {\\n  xSArmPanel(numinst: $numinst, request: $request, panel: $panel, currentStatus: $currentStatus, suid: $suid, forceArmingRemoteId: $forceArmingRemoteId, armAndLock: $armAndLock) {\\n    res\\n    msg\\n    referenceId\\n  }\\n}\\n',\n        'ArmStatus': 'query ArmStatus($numinst: String!, $request: ArmCodeRequest, $panel: String!, $referenceId: String!, $counter: Int!, $forceArmingRemoteId: String, $armAndLock: Boolean) {\\n  xSArmStatus(numinst: $numinst, panel: $panel, referenceId: $referenceId, counter: $counter, request: $request, forceArmingRemoteId: $forceArmingRemoteId, armAndLock: $armAndLock) {\\n    res\\n    msg\\n    status\\n    protomResponse\\n    protomResponseDate\\n    numinst\\n    requestId\\n    error {\\n      code\\n      type\\n      allowForcing\\n      exceptionsNumber\\n      referenceId\\n      suid\\n    }\\n  }\\n}\\n',\n        'xSDisarmPanel': 'mutation xSDisarmPanel($numinst: String!, $request: DisarmCodeRequest!, $panel: String!) {\\n  xSDisarmPanel(numinst: $numinst, request: $request, panel: $panel) {\\n    res\\n    msg\\n    referenceId\\n  }\\n}\\n',\n        'DisarmStatus': 'query DisarmStatus($numinst: String!, $panel: String!, $referenceId: String!, $counter: Int!, $request: DisarmCodeRequest) {\\n  xSDisarmStatus(numinst: $numinst, panel: $panel, referenceId: $referenceId, counter: $counter, request: $request) {\\n    res\\n    msg\\n    status\\n    protomResponse\\n    protomResponseDate\\n    numinst\\n    requestId\\n    error {\\n      code\\n      type\\n      allowForcing\\n      exceptionsNumber\\n      referenceId\\n    }\\n  }\\n}\\n',\n        'xSGetExceptions': 'query xSGetExceptions($numinst: String!, $panel: String!, $referenceId: String!, $counter: Int!, $suid: String) {\\n  xSGetExceptions(numinst: $numinst, panel: $panel, referenceId: $referenceId, counter: $counter, suid: $suid) {\\n    res\\n    msg\\n    exceptions {\\n      status\\n      deviceType\\n      alias\\n    }\\n  }\\n}\\n',\n        'ActV2Timeline': 'query ActV2Timeline($numinst: String!, $panel: String, $numRows: Int, $offset: Int, $timeFilter: TimeFilter!) {\\n  xSActV2(numinst: $numinst, input: {\\n    timeFilter: $timeFilter, numRows: $numRows, offset: $offset,\\n    panel: $panel, hasLocksmithRequested: false, singleActivityFilter: [0]\\n  }) {\\n    reg {\\n      alias type device source idSignal schedulerType myVerisureUser\\n      time img incidenceId signalType interface deviceName keyname\\n      tagId userAuth\\n      exceptions { status deviceType alias }\\n    }\\n  }\\n}\\n',\n        'Status': 'query Status($numinst: String!) {\\n  xSStatus(numinst: $numinst) {\\n    status\\n    timestampUpdate\\n    wifiConnected\\n    exceptions {\\n      status\\n      deviceType\\n      alias\\n    }\\n  }\\n}'\n    }\n};\n\nmsg.payload.enum = {\n    // Verisure panel status code\n    'state': {\n        'D': 'Désarmée',\n        'P': 'Partielle jour',\n        'Q': 'Partielle nuit',\n        'T': 'Totale',\n        'E': 'Périmétrique',\n        'B': 'Partielle jour et périmétrique',\n        'C': 'Partielle nuit et périmétrique',\n        'A': 'Totale et périmétrique',\n        'X': 'Annexe',\n        'R': 'Partielle jour et annexe',\n        'S': 'Partielle nuit et annexe',\n        'O': 'Totale et annexe'\n    },\n    // Modes that can be asked (interior alarm), same keys as state\n    'mode': {\n        'D': 'Désarmée',\n        'P': 'Partielle jour',\n        'Q': 'Partielle nuit',\n        'T': 'Totale'\n    },\n    // Verisure command of each mode\n    'command': {\n        'D': 'DARM1',\n        'P': 'ARMDAY1',\n        'Q': 'ARMNIGHT1',\n        'T': 'ARM1'\n    },\n    // Activity event type (category of Verisure numeric codes)\n    'event': {\n        'armed': 'Armement',\n        'armed_with_exceptions': 'Armement avec anomalie',\n        'arming_failed': 'Armement refusé',\n        'disarmed': 'Désarmement',\n        'alarm': 'Alarme déclenchée',\n        'alarm_resolved': 'Alarme terminée',\n        'tampering': 'Autoprotection',\n        'sabotage': 'Sabotage',\n        'image_request': 'Demande de photo',\n        'power_cut': 'Coupure de courant',\n        'power_restored': 'Retour du courant',\n        'status_check': 'Vérification de l\\'état',\n        'communication_failed': 'Erreur de communication',\n        'communication_restored': 'Communication rétablie',\n        'door_opened': 'Porte ouverte',\n        'door_closed': 'Porte fermée',\n        'routine_executed': 'Routine exécutée',\n        'tag_or_remote_activated': 'Badge ou télécommande activé',\n        'high_temperature': 'Température élevée',\n        'unknown': 'Autre'\n    },\n    // Verisure numeric event code to event type, codes seen on real panels (securitas-direct-new-api)\n    'event_code': {\n        '2': 'armed', '31': 'armed', '37': 'armed', '40': 'armed', '46': 'armed', '701': 'armed', '702': 'armed', '721': 'armed',\n        '801': 'armed', '802': 'armed', '821': 'armed', '823': 'armed', '824': 'armed',\n        '850': 'armed_with_exceptions',\n        '5802': 'arming_failed', '5823': 'arming_failed', '5824': 'arming_failed', '531': 'arming_failed', '537': 'arming_failed', '540': 'arming_failed', '546': 'arming_failed',\n        '1': 'disarmed', '32': 'disarmed', '107': 'disarmed', '700': 'disarmed', '720': 'disarmed', '800': 'disarmed', '820': 'disarmed', '822': 'disarmed',\n        '13': 'alarm', '14': 'alarm',\n        '24': 'tampering', '241': 'sabotage', '331': 'alarm_resolved',\n        '16': 'image_request', '25': 'power_cut', '26': 'power_restored', '27': 'status_check',\n        '501': 'communication_failed', '502': 'communication_failed', '3121': 'communication_restored',\n        '324': 'door_opened', '325': 'door_closed', '70': 'routine_executed', '41': 'tag_or_remote_activated', '56': 'high_temperature'\n    },\n    // Verisure panel errors\n    'error': {\n        'mg_open_zone': 'zone ouverte',\n        'no_response_to_request': 'pas de réponse de la centrale',\n        'status_not_found': 'état introuvable'\n    }\n};\n\n// Translation of options labels (french is the reference language)\nmsg.payload.translate = {\n    'en': {\n        'Désarmée': 'Disarmed',\n        'Partielle jour': 'Partial day',\n        'Partielle nuit': 'Partial night',\n        'Totale': 'Total',\n        'Périmétrique': 'Perimeter',\n        'Partielle jour et périmétrique': 'Partial day and perimeter',\n        'Partielle nuit et périmétrique': 'Partial night and perimeter',\n        'Totale et périmétrique': 'Total and perimeter',\n        'Annexe': 'Annex',\n        'Partielle jour et annexe': 'Partial day and annex',\n        'Partielle nuit et annexe': 'Partial night and annex',\n        'Totale et annexe': 'Total and annex',\n        'Armement': 'Armed',\n        'Armement avec anomalie': 'Armed with exceptions',\n        'Armement refusé': 'Arming failed',\n        'Désarmement': 'Disarmed',\n        'Alarme déclenchée': 'Alarm',\n        'Alarme terminée': 'Alarm resolved',\n        'Autoprotection': 'Tampering',\n        'Sabotage': 'Sabotage',\n        'Demande de photo': 'Image request',\n        'Coupure de courant': 'Power cut',\n        'Retour du courant': 'Power restored',\n        'Vérification de l\\'état': 'Status check',\n        'Erreur de communication': 'Communication failed',\n        'Communication rétablie': 'Communication restored',\n        'Porte ouverte': 'Door opened',\n        'Porte fermée': 'Door closed',\n        'Routine exécutée': 'Routine executed',\n        'Badge ou télécommande activé': 'Tag or remote activated',\n        'Température élevée': 'High temperature',\n        'Autre': 'Other'\n    }\n};\n\nconst e = msg.payload.enum;\n\n// control entry: [name, entity, group, type, unit, default value, options: {key: name}, ha type, ha state_class, ha device_class, device field]\nmsg.payload.control = {\n    'panel': {\n        'fault': ['Défaut', 'fault', 'sensor', 'binary', '', true, {}, 'binary_sensor', '', 'problem', 'fault'],\n        'mode': ['Mode', 'mode', 'command', 'enum', '', '', e.mode, 'select', '', '', 'status'],\n        'state': ['Etat', 'state', 'sensor', 'enum', '', 'D', e.state, 'sensor', '', 'enum', 'status'],\n        'armed': ['Alarme armée', 'armed', 'sensor', 'binary', '', false, {}, 'binary_sensor', '', '', 'armed'],\n        'wifi': ['Wifi connecté', 'wifi', 'sensor', 'binary', '', false, {}, 'binary_sensor', '', 'connectivity', 'wifi'],\n        'event': ['Dernier événement', 'event', 'sensor', 'text', '', '', {}, 'sensor', '', '', 'event'],\n        'event_type': ['Type du dernier événement', 'event_type', 'sensor', 'enum', '', 'unknown', e.event, 'sensor', '', 'enum', 'event_type'],\n        'event_by': ['Auteur du dernier événement', 'event_by', 'sensor', 'text', '', '', {}, 'sensor', '', '', 'event_by'],\n        'event_time': ['Date du dernier événement', 'event_time', 'sensor', 'text', '', '', {}, 'sensor', '', 'timestamp', 'event_time'],\n        'timestamp': ['Mise à jour', 'timestamp', 'sensor', 'text', '', '', {}, 'sensor', '', 'timestamp', 'timestamp']\n    }\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2284,7 +2305,7 @@
         "type": "function",
         "z": "48135a54600713e8",
         "name": "parse",
-        "func": "// Parse alarm status and store it in memory\n// output 1: device updated (topic = installation number) / output 2: new device found / output 3: notification / output 4: history read\n\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst installations = global.get('installations', 'default') || {};\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst r = msg.result || {};\nconst data = (r.data || {}).xSStatus;\nconst id = msg.topic;\nconst inst = installations[id];\n\nflow.set('busy', 0, 'memoryOnly');\n\nif (typeof inst !== 'object') {\n\n    return;\n}\n\n// installation saved by a previous version\nif (typeof inst.name !== 'string' || inst.name === '') {\n    inst.name = 'Alarme';\n    global.set('installations', installations, 'default');\n}\n\nif (r.ok !== true || typeof data !== 'object' || data === null || typeof data.status !== 'string') {\n    if (r.waf === true) {\n        flow.set('pause', Date.now() + 900000, 'memoryOnly');\n    }\n    // session closed by Verisure, renew it at next read\n    if (r.code === '60067') {\n        global.set('account.exp', 0, 'default');\n    }\n    node.status({ fill: 'red', shape: 'ring', text: inst.name + ' : ' + (r.error || 'réponse invalide') });\n\n    return [null, null, { 'payload': 'Verisure : lecture de l\\'alarme ' + inst.name + ' impossible (' + (r.error || 'réponse invalide') + ')' }];\n}\n\n// Verisure gives the date of last update in milliseconds (or seconds), DKNR publishes an ISO 8601 date\nfunction isodate(raw) {\n    if (raw === undefined || raw === null || raw === '') {\n\n        return '';\n    }\n\n    let d = new Date(raw);\n    if (/^[0-9]{9,14}$/.test(String(raw))) {\n        d = new Date(Number(raw) * (String(raw).length <= 10 ? 1000 : 1));\n    }\n\n    return isNaN(d.getTime()) ? String(raw) : d.toISOString();\n}\n\nconst added = typeof devices[id] !== 'object';\nconst changed = added || devices[id].status !== data.status;\nconst states = (describe.enum || {}).state || {};\n\ndevices[id] = {\n    ...(devices[id] || {}),\n    'id': id,\n    'family': 'panel',\n    'name': inst.name,\n    'model': inst.panel,\n    'status': data.status,\n    'armed': data.status !== '' && data.status !== 'D',\n    'wifi': typeof data.wifiConnected === 'boolean' ? data.wifiConnected : undefined,\n    'timestamp': isodate(data.timestampUpdate),\n    'exceptions': Array.isArray(data.exceptions) ? data.exceptions.length : 0,\n    'updated': Date.now()\n};\n\nglobal.set('devices', devices, 'memoryOnly');\n\nif (typeof states[data.status] === 'string') {\n    node.status({ fill: 'green', shape: 'dot', text: inst.name + ' : ' + states[data.status] });\n} else {\n    node.status({ fill: 'yellow', shape: 'ring', text: inst.name + ' : état inconnu ' + data.status });\n}\n\nreturn [{ 'topic': id, 'payload': id }, added ? { 'topic': 'discovery', 'payload': '' } : null, null, { 'topic': id, 'payload': '', 'changed': changed, 'force': msg.force === true }];",
+        "func": "// Parse alarm status and store it in memory\n// output 1: device updated (topic = installation number) / output 2: new device found / output 3: notification / output 4: history read\n\nconst describe = global.get('describe', 'memoryOnly') || {};\nconst installations = global.get('installations', 'default') || {};\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst r = msg.result || {};\nconst data = (r.data || {}).xSStatus;\nconst id = msg.topic;\nconst inst = installations[id];\n\nflow.set('busy', 0, 'memoryOnly');\n\nif (typeof inst !== 'object') {\n\n    return;\n}\n\n// installation saved by a previous version\nif (typeof inst.name !== 'string' || inst.name === '') {\n    inst.name = 'Alarme';\n    global.set('installations', installations, 'default');\n}\n\nif (r.ok !== true || typeof data !== 'object' || data === null || typeof data.status !== 'string') {\n    if (r.waf === true) {\n        flow.set('pause', Date.now() + 900000, 'memoryOnly');\n    }\n    // session closed by Verisure, renew it at next read\n    if (r.code === '60067') {\n        global.set('account.exp', 0, 'default');\n    }\n    node.status({ fill: 'red', shape: 'ring', text: inst.name + ' : ' + (r.error || 'réponse invalide') });\n\n    return [null, null, { 'payload': 'Verisure : lecture de l\\'alarme ' + inst.name + ' impossible (' + (r.error || 'réponse invalide') + ')' }];\n}\n\n// Verisure gives the date of last update in milliseconds (or seconds), DKNR publishes an ISO 8601 date\nfunction isodate(raw) {\n    if (raw === undefined || raw === null || raw === '') {\n\n        return '';\n    }\n\n    let d = new Date(raw);\n    if (/^[0-9]{9,14}$/.test(String(raw))) {\n        d = new Date(Number(raw) * (String(raw).length <= 10 ? 1000 : 1));\n    }\n\n    return isNaN(d.getTime()) ? String(raw) : d.toISOString();\n}\n\nconst added = typeof devices[id] !== 'object' || devices[id].status === undefined;\nconst changed = added || devices[id].status !== data.status;\nconst states = (describe.enum || {}).state || {};\n\ndevices[id] = {\n    ...(devices[id] || {}),\n    'id': id,\n    'family': 'panel',\n    'name': inst.name,\n    'model': inst.panel,\n    'status': data.status,\n    'armed': data.status !== '' && data.status !== 'D',\n    'wifi': typeof data.wifiConnected === 'boolean' ? data.wifiConnected : undefined,\n    'timestamp': isodate(data.timestampUpdate),\n    'exceptions': Array.isArray(data.exceptions) ? data.exceptions.length : 0,\n    'updated': Date.now(),\n    'fault': false\n};\n\nglobal.set('devices', devices, 'memoryOnly');\n\nif (typeof states[data.status] === 'string') {\n    node.status({ fill: 'green', shape: 'dot', text: inst.name + ' : ' + states[data.status] });\n} else {\n    node.status({ fill: 'yellow', shape: 'ring', text: inst.name + ' : état inconnu ' + data.status });\n}\n\nreturn [{ 'topic': id, 'payload': id }, added ? { 'topic': 'discovery', 'payload': '' } : null, null, { 'topic': id, 'payload': '', 'changed': changed, 'force': msg.force === true }];",
         "outputs": 4,
         "timeout": 0,
         "noerr": 0,
@@ -2421,6 +2442,88 @@
         "g": "2f50b1b725e56b74"
     },
     {
+        "id": "af7df3ec1893255d",
+        "type": "inject",
+        "z": "48135a54600713e8",
+        "name": "30 s",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "20",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 200,
+        "y": 890,
+        "wires": [
+            [
+                "6f7ac099e4c48d3e"
+            ]
+        ],
+        "g": "ee83b2844b6ac694"
+    },
+    {
+        "id": "6f7ac099e4c48d3e",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "name": "fault",
+        "func": "// Fault of each installation: 1 when the account is not connected or without valid read for a while\n// output 1: publish (topic = installation) / output 2: discovery (new device)\n\nconst account = global.get('account', 'default') || {};\nconst installations = global.get('installations', 'default') || {};\nconst devices = global.get('devices', 'memoryOnly') || {};\nconst now = Date.now();\n\n// no valid read since 3 intervals, 10 minutes at least\nconst interval = Math.max(60, Number(global.get('mqtt.interval', 'default')) || 180) * 1000;\nconst timeout = Math.max(3 * interval, 600000);\n\n// after a start, wait for the first reads\nlet start = context.get('start');\nif (typeof start !== 'number') {\n    start = now;\n    context.set('start', start);\n}\n\nlet discovery = false;\nlet faults = 0;\n\nfor (const id in installations) {\n    // device not read yet (start without connection): only its fault is known\n    if (typeof devices[id] !== 'object') {\n        devices[id] = {\n            'id': id,\n            'family': 'panel',\n            'name': installations[id].name || 'Alarme',\n            'model': installations[id].panel || ''\n        };\n        discovery = true;\n    }\n\n    const last = devices[id].updated || start;\n    const fault = account.status !== 'ok' || now - last > timeout;\n\n    if (fault) {\n        faults++;\n    }\n\n    devices[id].fault = fault;\n    node.send([{ 'topic': id, 'payload': id }, null]);\n}\n\nglobal.set('devices', devices, 'memoryOnly');\n\nnode.status(faults > 0 ? { fill: 'red', shape: 'ring', text: faults + ' installation(s) en défaut' } : { fill: 'green', shape: 'dot', text: 'ok' });\n\nreturn [null, discovery ? { 'topic': 'discovery', 'payload': '' } : null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 890,
+        "wires": [
+            [
+                "b17c64c3784432d6"
+            ],
+            [
+                "58f0ec240466c319"
+            ]
+        ],
+        "g": "ee83b2844b6ac694"
+    },
+    {
+        "id": "b17c64c3784432d6",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - fault - publish",
+        "mode": "link",
+        "links": [
+            "fe0eaf4da780c277"
+        ],
+        "x": 580,
+        "y": 890,
+        "wires": [],
+        "g": "ee83b2844b6ac694"
+    },
+    {
+        "id": "58f0ec240466c319",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "name": "custom - fault - discovery",
+        "mode": "link",
+        "links": [
+            "b898845c38151a25"
+        ],
+        "x": 580,
+        "y": 950,
+        "wires": [],
+        "g": "ee83b2844b6ac694"
+    },
+    {
         "id": "95ea60fe773e266c",
         "type": "link in",
         "z": "48135a54600713e8",
@@ -2429,7 +2532,7 @@
             "25ce94531dd6fbe4"
         ],
         "x": 200,
-        "y": 890,
+        "y": 1072,
         "wires": [
             [
                 "8f28443a092bd616",
@@ -2451,7 +2554,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 890,
+        "y": 1072,
         "wires": [
             [
                 "9c5c02b4c2785274"
@@ -2472,7 +2575,7 @@
             "df7dcf30ddadd2be"
         ],
         "x": 580,
-        "y": 950,
+        "y": 1132,
         "wires": [],
         "g": "c18ec2d737314ebd"
     },
@@ -2486,7 +2589,7 @@
             "b110f2810071296c"
         ],
         "x": 580,
-        "y": 890,
+        "y": 1072,
         "wires": [],
         "g": "c18ec2d737314ebd"
     },
@@ -2504,7 +2607,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 390,
-        "y": 950,
+        "y": 1132,
         "wires": [],
         "g": "c18ec2d737314ebd"
     },
@@ -2518,7 +2621,7 @@
             "613cf3d35db0cf48"
         ],
         "x": 200,
-        "y": 1072,
+        "y": 1254,
         "wires": [
             [
                 "14d603e3188a00b5"
@@ -2539,7 +2642,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1072,
+        "y": 1254,
         "wires": [
             [
                 "9f4a39c56f130689"
@@ -2574,7 +2677,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 390,
-        "y": 1132,
+        "y": 1314,
         "wires": [
             [
                 "14d603e3188a00b5"
@@ -2593,7 +2696,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 580,
-        "y": 1132,
+        "y": 1314,
         "wires": [
             [
                 "ac9875dda9bee911"
@@ -2614,7 +2717,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 1132,
+        "y": 1314,
         "wires": [
             [
                 "9f4a39c56f130689"
@@ -2638,7 +2741,7 @@
         "finalize": "",
         "libs": [],
         "x": 960,
-        "y": 1072,
+        "y": 1254,
         "wires": [
             [
                 "9bd3ad2f25edd66a"
@@ -2657,7 +2760,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 1150,
-        "y": 1072,
+        "y": 1254,
         "wires": [
             [
                 "5604b1bf15562039"
@@ -2678,7 +2781,7 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 1072,
+        "y": 1254,
         "wires": [
             [
                 "9f4a39c56f130689"
@@ -2710,7 +2813,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1150,
-        "y": 1132,
+        "y": 1314,
         "wires": [
             [
                 "9f4a39c56f130689"
@@ -2731,7 +2834,7 @@
         "finalize": "",
         "libs": [],
         "x": 1530,
-        "y": 1072,
+        "y": 1254,
         "wires": [
             [
                 "8a9bda1cd11a5e5f"
@@ -2763,7 +2866,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1720,
-        "y": 1132,
+        "y": 1314,
         "wires": [
             [
                 "409f03aac401013e"
@@ -2781,7 +2884,7 @@
             "fe0eaf4da780c277"
         ],
         "x": 1910,
-        "y": 1072,
+        "y": 1254,
         "wires": [],
         "g": "1d8bbe15b101fac0"
     },
@@ -2795,7 +2898,7 @@
             "b110f2810071296c"
         ],
         "x": 1910,
-        "y": 1132,
+        "y": 1314,
         "wires": [],
         "g": "1d8bbe15b101fac0"
     },
@@ -2809,7 +2912,7 @@
             "fc147ee782462bbe"
         ],
         "x": 1910,
-        "y": 1192,
+        "y": 1374,
         "wires": [],
         "g": "1d8bbe15b101fac0"
     },
@@ -2823,7 +2926,7 @@
             "7894d03b37617bc2"
         ],
         "x": 200,
-        "y": 1314,
+        "y": 1496,
         "wires": [
             [
                 "17dc16bdf59ce27c"
@@ -2844,7 +2947,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1314,
+        "y": 1496,
         "wires": [
             [
                 "edacac08b5b21656"
@@ -2863,7 +2966,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 580,
-        "y": 1314,
+        "y": 1496,
         "wires": [
             [
                 "54291e55ee5a9233"
@@ -2884,7 +2987,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 1314,
+        "y": 1496,
         "wires": [
             [
                 "a0ea744ebba5a666"
@@ -2911,7 +3014,7 @@
             "fe0eaf4da780c277"
         ],
         "x": 960,
-        "y": 1314,
+        "y": 1496,
         "wires": [],
         "g": "0974373e2862d759"
     },
@@ -2925,7 +3028,7 @@
             "b898845c38151a25"
         ],
         "x": 960,
-        "y": 1374,
+        "y": 1556,
         "wires": [],
         "g": "0974373e2862d759"
     },
@@ -2939,7 +3042,7 @@
             "099203d4f770cdac"
         ],
         "x": 960,
-        "y": 1434,
+        "y": 1616,
         "wires": [],
         "g": "0974373e2862d759"
     },
@@ -2961,7 +3064,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 960,
-        "y": 1494,
+        "y": 1676,
         "wires": [
             [
                 "a6d7987237243cb8"
@@ -2979,7 +3082,7 @@
             "fc147ee782462bbe"
         ],
         "x": 1150,
-        "y": 1494,
+        "y": 1676,
         "wires": [],
         "g": "0974373e2862d759"
     },
@@ -2995,7 +3098,7 @@
             "f8e2855e8e00b1a9"
         ],
         "x": 200,
-        "y": 1554,
+        "y": 1736,
         "wires": [
             [
                 "899d781086e9d6f6"
@@ -3016,7 +3119,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1554,
+        "y": 1736,
         "wires": [
             [
                 "279a83df474acfc7"
@@ -3076,7 +3179,7 @@
         "mobileBreakpointType": "defaults",
         "action": "replace",
         "x": 580,
-        "y": 1554,
+        "y": 1736,
         "wires": [
             []
         ],
@@ -3114,7 +3217,7 @@
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
         "x": 580,
-        "y": 1614,
+        "y": 1796,
         "wires": [
             [
                 "95846d2d4d94d701"
@@ -3135,7 +3238,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 1614,
+        "y": 1796,
         "wires": [
             [
                 "7894d03b37617bc2"
@@ -3153,7 +3256,7 @@
             "bc1c57a82f4d56ec"
         ],
         "x": 960,
-        "y": 1614,
+        "y": 1796,
         "wires": [],
         "g": "0974373e2862d759"
     },
@@ -3164,11 +3267,12 @@
         "name": "custom - publish",
         "links": [
             "1ed4c10211282967",
+            "b17c64c3784432d6",
             "a0ea744ebba5a666",
             "795b18b5da7375d4"
         ],
         "x": 200,
-        "y": 1736,
+        "y": 1918,
         "wires": [
             [
                 "ceaa91c2ab01998d"
@@ -3189,7 +3293,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1736,
+        "y": 1918,
         "wires": [
             [
                 "eed88956dce2fb67"
@@ -3207,7 +3311,7 @@
             "d5bdaec879cbd196"
         ],
         "x": 580,
-        "y": 1736,
+        "y": 1918,
         "wires": [],
         "g": "61f58f3983d62bbd"
     },
@@ -3219,11 +3323,12 @@
         "links": [
             "ca5c502dcbc1ee15",
             "6f7c4bb130956955",
+            "58f0ec240466c319",
             "be278eda8dedbee4",
             "dffd97db393dedad"
         ],
         "x": 200,
-        "y": 1858,
+        "y": 2040,
         "wires": [
             [
                 "b2327d1a9a1b2241"
@@ -3253,7 +3358,7 @@
         "payload": "",
         "payloadType": "str",
         "x": 200,
-        "y": 1918,
+        "y": 2100,
         "wires": [
             [
                 "b2327d1a9a1b2241"
@@ -3274,7 +3379,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1858,
+        "y": 2040,
         "wires": [
             [
                 "df58e1332d9b9265",
@@ -3301,7 +3406,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 580,
-        "y": 1858,
+        "y": 2040,
         "wires": [
             [
                 "e3bf3fdd364dd194"
@@ -3319,7 +3424,7 @@
             "d5bdaec879cbd196"
         ],
         "x": 770,
-        "y": 1858,
+        "y": 2040,
         "wires": [],
         "g": "29e1250dbdb56a71"
     },
@@ -3337,7 +3442,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 580,
-        "y": 1918,
+        "y": 2100,
         "wires": [],
         "g": "29e1250dbdb56a71"
     },
@@ -3354,7 +3459,7 @@
             "f8e2855e8e00b1a9"
         ],
         "x": 200,
-        "y": 2040,
+        "y": 2222,
         "wires": [
             [
                 "fc13877bc8688552",
@@ -3376,7 +3481,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 2040,
+        "y": 2222,
         "wires": [
             [
                 "bbbf0a92c56392d6"
@@ -3416,7 +3521,7 @@
         "typeIsComboBox": true,
         "msgTrigger": "onChange",
         "x": 580,
-        "y": 2100,
+        "y": 2282,
         "wires": [
             [
                 "3b9508c44f7033cc"
@@ -3443,7 +3548,7 @@
         "repair": false,
         "outputs": 2,
         "x": 770,
-        "y": 2100,
+        "y": 2282,
         "wires": [
             [
                 "bbbf0a92c56392d6"
@@ -3467,7 +3572,7 @@
         "finalize": "",
         "libs": [],
         "x": 960,
-        "y": 2040,
+        "y": 2222,
         "wires": [
             [
                 "7a75fd81ea18e5d2"
@@ -3525,7 +3630,7 @@
         "mobileBreakpointType": "defaults",
         "action": "replace",
         "x": 1150,
-        "y": 2040,
+        "y": 2222,
         "wires": [
             []
         ],
@@ -3563,7 +3668,7 @@
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
         "x": 1150,
-        "y": 2100,
+        "y": 2282,
         "wires": [
             [
                 "db7608c7fc0789d8"
@@ -3584,7 +3689,7 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 2100,
+        "y": 2282,
         "wires": [
             [
                 "ad114fddba29e18c"
@@ -3602,7 +3707,7 @@
             "b110f2810071296c"
         ],
         "x": 1530,
-        "y": 2100,
+        "y": 2282,
         "wires": [],
         "g": "6f4ec0a5ceecfce4"
     },
@@ -3624,7 +3729,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 1150,
-        "y": 2160,
+        "y": 2342,
         "wires": [
             [
                 "fe917db853e72abe"
@@ -3652,7 +3757,7 @@
         "to": "",
         "reg": false,
         "x": 1340,
-        "y": 2160,
+        "y": 2342,
         "wires": [
             [
                 "7ade51e419974721"
@@ -3676,7 +3781,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1530,
-        "y": 2160,
+        "y": 2342,
         "wires": [
             [
                 "bbbf0a92c56392d6"
@@ -3718,7 +3823,7 @@
         "to": "",
         "reg": false,
         "x": 390,
-        "y": 2220,
+        "y": 2402,
         "wires": [
             [
                 "7a75fd81ea18e5d2",
@@ -3776,7 +3881,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 1150,
-        "y": 2220,
+        "y": 2402,
         "wires": [
             [
                 "f56313894515bd10"
@@ -3797,7 +3902,7 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 2220,
+        "y": 2402,
         "wires": [
             [
                 "613cf3d35db0cf48"
@@ -3815,7 +3920,7 @@
             "df7dcf30ddadd2be"
         ],
         "x": 1530,
-        "y": 2220,
+        "y": 2402,
         "wires": [],
         "g": "6f4ec0a5ceecfce4"
     },
@@ -3832,7 +3937,7 @@
         "finalize": "",
         "libs": [],
         "x": 580,
-        "y": 2220,
+        "y": 2402,
         "wires": [
             [
                 "512c97e16720db33"
@@ -3872,7 +3977,7 @@
         "passthru": false,
         "dropdownOptions": [],
         "x": 1150,
-        "y": 2280,
+        "y": 2462,
         "wires": [
             [
                 "34d21bbf7c35a301"
@@ -3893,7 +3998,7 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 2280,
+        "y": 2462,
         "wires": [
             [
                 "b12fb80212fea6d3"
@@ -3917,7 +4022,7 @@
             "42ae67c19e3e3682"
         ],
         "x": 1530,
-        "y": 2280,
+        "y": 2462,
         "wires": [],
         "g": "6f4ec0a5ceecfce4"
     },
@@ -3931,7 +4036,7 @@
             "b898845c38151a25"
         ],
         "x": 1530,
-        "y": 2340,
+        "y": 2522,
         "wires": [],
         "g": "6f4ec0a5ceecfce4"
     },
@@ -3945,7 +4050,7 @@
             "fc147ee782462bbe"
         ],
         "x": 1530,
-        "y": 2400,
+        "y": 2582,
         "wires": [],
         "g": "6f4ec0a5ceecfce4"
     },
@@ -3962,7 +4067,7 @@
             "c70c2e01325dbe6e"
         ],
         "x": 200,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "e235cda378288631"
@@ -3983,7 +4088,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "abb6a20b54eed994"
@@ -4019,7 +4124,7 @@
             "300df28f3025dc33"
         ],
         "x": 580,
-        "y": 2882,
+        "y": 3064,
         "wires": [],
         "g": "70afa9e166588659"
     },
@@ -4063,7 +4168,7 @@
         "passthru": false,
         "dropdownOptions": [],
         "x": 580,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "ca57a19d2d68b8d8"
@@ -4084,7 +4189,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "4146057d2c130584"
@@ -4106,7 +4211,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 960,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "d42b4e8fa1e4881a"
@@ -4127,7 +4232,7 @@
         "finalize": "",
         "libs": [],
         "x": 1150,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "cf3cd7f6e3e471d4"
@@ -4173,7 +4278,7 @@
         "typeIsComboBox": true,
         "msgTrigger": "onChange",
         "x": 580,
-        "y": 2582,
+        "y": 2764,
         "wires": [
             [
                 "b16f7c4ebd263cf8"
@@ -4194,7 +4299,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 2582,
+        "y": 2764,
         "wires": [],
         "g": "70afa9e166588659"
     },
@@ -4230,7 +4335,7 @@
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
         "x": 580,
-        "y": 2642,
+        "y": 2824,
         "wires": [
             [
                 "4b9499d505d118a0"
@@ -4251,7 +4356,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 2642,
+        "y": 2824,
         "wires": [
             [
                 "231e2bbb9c3b13b3"
@@ -4273,7 +4378,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 960,
-        "y": 2642,
+        "y": 2824,
         "wires": [
             [
                 "c3139c9d9fb3605c"
@@ -4294,7 +4399,7 @@
         "finalize": "",
         "libs": [],
         "x": 1150,
-        "y": 2642,
+        "y": 2824,
         "wires": [
             [
                 "d2d52ac80369e7b7"
@@ -4334,7 +4439,7 @@
         "passthru": false,
         "dropdownOptions": [],
         "x": 580,
-        "y": 2702,
+        "y": 2884,
         "wires": [
             [
                 "d5cd52ab4ed14eb4"
@@ -4355,7 +4460,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 2702,
+        "y": 2884,
         "wires": [
             [
                 "cf3cd7f6e3e471d4"
@@ -4377,7 +4482,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 1340,
-        "y": 2582,
+        "y": 2764,
         "wires": [
             [
                 "25cb78396b976f1c"
@@ -4398,7 +4503,7 @@
         "finalize": "",
         "libs": [],
         "x": 1530,
-        "y": 2582,
+        "y": 2764,
         "wires": [
             [
                 "a731c79480db2f26"
@@ -4424,7 +4529,7 @@
             "1c66cc723241e872"
         ],
         "x": 1530,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "a731c79480db2f26"
@@ -4443,7 +4548,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 1720,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "a45cbe3c3189ce5b"
@@ -4464,7 +4569,7 @@
         "finalize": "",
         "libs": [],
         "x": 1910,
-        "y": 2522,
+        "y": 2704,
         "wires": [
             [
                 "f8e2855e8e00b1a9"
@@ -4513,7 +4618,7 @@
         "mobileBreakpointType": "defaults",
         "action": "replace",
         "x": 580,
-        "y": 2762,
+        "y": 2944,
         "wires": [
             []
         ],
@@ -4551,7 +4656,7 @@
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
         "x": 580,
-        "y": 2822,
+        "y": 3004,
         "wires": [
             [
                 "4d54dec55e8adcc7"
@@ -4572,7 +4677,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 2822,
+        "y": 3004,
         "wires": [
             [
                 "074747fd26ce1e6b"
@@ -4594,7 +4699,7 @@
         "linkType": "static",
         "timeout": "90",
         "x": 960,
-        "y": 2822,
+        "y": 3004,
         "wires": [
             [
                 "32363a875cfc315c"
@@ -4615,7 +4720,7 @@
         "finalize": "",
         "libs": [],
         "x": 1150,
-        "y": 2822,
+        "y": 3004,
         "wires": [
             [
                 "f8e2855e8e00b1a9"
@@ -4642,7 +4747,7 @@
             "b110f2810071296c"
         ],
         "x": 2100,
-        "y": 2522,
+        "y": 2704,
         "wires": [],
         "g": "70afa9e166588659"
     },
@@ -4656,7 +4761,7 @@
             "077fb23eafda84ad"
         ],
         "x": 2100,
-        "y": 2582,
+        "y": 2764,
         "wires": [],
         "g": "70afa9e166588659"
     },
@@ -4670,7 +4775,7 @@
             "fc147ee782462bbe"
         ],
         "x": 2100,
-        "y": 2642,
+        "y": 2824,
         "wires": [],
         "g": "70afa9e166588659"
     },
@@ -4684,7 +4789,7 @@
             "d5bdaec879cbd196"
         ],
         "x": 2100,
-        "y": 2822,
+        "y": 3004,
         "wires": [],
         "g": "70afa9e166588659"
     },
