@@ -14,6 +14,8 @@ Toutes les informations sont regroupées sur votre serveur MQTT, dans la même a
 
 Ce projet n'est ni édité ni soutenu par Verisure. L'API utilisée n'est pas publique, elle peut changer sans préavis.
 
+La documentation détaillée est sur [dknr-domotic.github.io](https://dknr-domotic.github.io/sources/verisure/).
+
 
 ## Fonctionnalités
 
