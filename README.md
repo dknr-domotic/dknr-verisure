@@ -24,6 +24,7 @@ Ce projet n'est ni édité ni soutenu par Verisure. L'API utilisée n'est pas pu
 - **Lecture périodique** à intervalle réglable, sans réveiller la centrale.
 - **Pilotage** de l'alarme intérieure : désarmer, partielle jour, partielle nuit, totale.
 - **Désarmement par MQTT désactivé par défaut**, à autoriser explicitement.
+- **Journal** des événements de l'alarme (mises en service, désactivations, alarmes, coupures...) et dernier événement publié sur MQTT.
 - **Support Home-Assistant Discovery** en lecture et pilotage.
 
 
@@ -70,6 +71,12 @@ Dans la page **Configurer**, l'**intervalle de lecture** est de 180 secondes par
 
 Un changement d'état de l'alarme fait depuis le clavier ou l'application est donc connu avec un retard pouvant aller jusqu'à cet intervalle.
 
+### Journal
+
+La page **Journal** liste les derniers événements de l'alarme connus de Verisure (100 au plus), avec leur auteur : utilisateur de l'application, badge, détecteur...
+
+Le journal est lu à chaque changement d'état de l'alarme, à l'ouverture de la page, et sinon toutes les 15 minutes. Un événement qui ne change pas l'état de l'alarme (coupure de courant, par exemple) peut donc être connu avec 15 minutes de retard.
+
 ### Pilotage
 
 Dans la page **Alarme**, les boutons **Désarmer**, **Jour**, **Nuit** et **Totale** changent le mode de l'alarme. Le bouton coloré est le mode actuel. Une commande prend une dizaine de secondes, le temps que la centrale réponde ; son résultat est affiché en notification.
@@ -99,6 +106,10 @@ Entités :
 * `state` : `D` désarmée, `P` partielle jour, `Q` partielle nuit, `T` totale, `E` périmétrique, `B` partielle jour et périmétrique, `C` partielle nuit et périmétrique, `A` totale et périmétrique, `X` annexe, `R` partielle jour et annexe, `S` partielle nuit et annexe, `O` totale et annexe.
 * `armed` : `1` si l'alarme est armée, quel que soit le mode, sinon `0`.
 * `wifi` : `1` si la centrale est connectée en wifi, sinon `0`.
+* `event` : texte du dernier événement, tel que donné par Verisure.
+* `event_type` : type du dernier événement : `armed`, `armed_with_exceptions`, `arming_failed`, `disarmed`, `alarm`, `alarm_resolved`, `tampering`, `sabotage`, `image_request`, `power_cut`, `power_restored`, `status_check`, `communication_failed`, `communication_restored`, `door_opened`, `door_closed`, `routine_executed`, `tag_or_remote_activated`, `high_temperature`, `unknown`.
+* `event_by` : auteur du dernier événement (utilisateur, badge, détecteur...).
+* `event_time` : date du dernier événement, au format ISO 8601 (UTC).
 * `timestamp` : date de la dernière mise à jour connue de Verisure, au format ISO 8601 (UTC).
 
 Seules les entités réellement fournies par l'installation sont publiées.
@@ -110,7 +121,7 @@ L'API Verisure ne donne pas l'état des détecteurs d'ouverture ni des détecteu
 
 * Armement forcé lorsqu'une zone est ouverte.
 * Pilotage du périmétrique et de l'annexe.
-* Journal d'activité de l'alarme.
+* Photos des détecteurs-caméras.
 
 
 ## Contribuer
