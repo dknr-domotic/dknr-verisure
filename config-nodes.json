@@ -75,12 +75,12 @@
     "disabled": "false"
   },
   {
-    "id": "b3a4a63fc14f6988",
+    "id": "eab9d217acf30987",
     "type": "ui-page",
-    "name": "add",
+    "name": "history",
     "ui": "df7710b4b2c4e55b",
-    "path": "/add",
-    "icon": "account-key",
+    "path": "/history",
+    "icon": "history",
     "layout": "notebook",
     "theme": "877e716e64a22cf1",
     "breakpoints": [
@@ -111,12 +111,12 @@
     "disabled": "false"
   },
   {
-    "id": "eab9d217acf30987",
+    "id": "b3a4a63fc14f6988",
     "type": "ui-page",
-    "name": "history",
+    "name": "add",
     "ui": "df7710b4b2c4e55b",
-    "path": "/history",
-    "icon": "history",
+    "path": "/add",
+    "icon": "account-key",
     "layout": "notebook",
     "theme": "877e716e64a22cf1",
     "breakpoints": [
